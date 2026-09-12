@@ -1,4 +1,3 @@
-from langchain_core.documents import Document
 from langchain_community.document_loaders import PyMuPDFLoader
 
 DEFAULT_METADATA_KEYS = {"source", "page", "title"}
