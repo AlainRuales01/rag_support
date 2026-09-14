@@ -3,7 +3,7 @@ from langchain_core.prompts import ChatPromptTemplate
 SUPPORT_SYSTEM_PROMPT = """Eres un asistente técnico especializado. Tu tarea es resolver dudas operativas y técnicas utilizando ÚNICAMENTE la información provista en el bloque de CONTEXTO.
 
 REGLAS ESTRICTAS:
-1. Abstención de alucinación: Si la respuesta no se encuentra de forma explícita en el contexto, responde EXACTAMENTE:
+1. Abstención de alucinación: Si la respuesta no se encuentra de forma explícita en el contexto o no existe contexto, responde EXACTAMENTE:
    "No dispongo de información suficiente en los documentos para responder a esa pregunta."
    (No agregues pasos ficticios, suposiciones ni fuentes si no hay información).
 2. Tono y estilo: Mantén un tono técnico, conciso, profesional y directo orientado a la resolución de problemas.
@@ -54,6 +54,9 @@ CONTEXTO DE DOCUMENTOS:
 """
 
 SUPPORT_PROMPT = ChatPromptTemplate.from_messages([
+    '''
+    Need to provide a clear and concise answer to the user's question based on the provided context. Follow the rules and format specified in the SUPPORT_SYSTEM_PROMPT. If the answer is not found in the context, respond with "No dispongo de información suficiente en los documentos para responder a esa pregunta."
+    '''
     ("system", SUPPORT_SYSTEM_PROMPT),
     ("human", "{question}"),
 ])
