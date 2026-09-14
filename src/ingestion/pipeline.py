@@ -21,7 +21,7 @@ class IngestionPipeline:
         """
         documents = load_documents(data_source, metadata_dict)
         documents = chunk_splitter(documents)
-        vector_store = get_vectorstore()
+        vectorstore = get_vectorstore()
         for offset in range(0, len(documents), batch_size):
             batch = documents[offset:offset + batch_size]
             # Wait the specified time before processing the next batch to avoid rate limiting
@@ -29,7 +29,7 @@ class IngestionPipeline:
             for attempt in range(1, max_retries + 1):
                 try:
                     print(f"Procesando lote con offset {offset} (Intento {attempt}/{max_retries})...")
-                    vector_store.add_documents(batch)
+                    vectorstore.add_documents(batch)
                     break 
                 except Exception as e:
                     if "429" in str(e) or "ResourceExhausted" in str(e):
