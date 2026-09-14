@@ -54,9 +54,6 @@ CONTEXTO DE DOCUMENTOS:
 """
 
 SUPPORT_PROMPT = ChatPromptTemplate.from_messages([
-    '''
-    Need to provide a clear and concise answer to the user's question based on the provided context. Follow the rules and format specified in the SUPPORT_SYSTEM_PROMPT. If the answer is not found in the context, respond with "No dispongo de información suficiente en los documentos para responder a esa pregunta."
-    '''
     ("system", SUPPORT_SYSTEM_PROMPT),
     ("human", "{question}"),
 ])
