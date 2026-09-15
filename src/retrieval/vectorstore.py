@@ -13,4 +13,4 @@ def get_vectorstore():
         raise ValueError("No valid embedder found. Please check the model name.")
 
     # Initialize Pinecone
-    return PineconeVectorStore(index_name="test", embedding=embedding, pinecone_api_key=PINECONE_API_KEY)
+    return PineconeVectorStore(index_name="support", embedding=embedding, pinecone_api_key=PINECONE_API_KEY)
