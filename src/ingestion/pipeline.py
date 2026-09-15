@@ -1,3 +1,4 @@
+import random
 import time
 
 from src.ingestion.splitters import chunk_splitter
@@ -12,7 +13,7 @@ class IngestionPipeline:
         """
         pass
 
-    def run_ingestion(self, data_source, metadata_dict=None, batch_size=50, wait_time=3.0, max_retries: int = 5):
+    def run_ingestion(self, data_source, metadata_dict=None, batch_size=20, wait_time=30.0, max_retries: int = 5):
         """
         Run the ingestion pipeline to load and process documents.
 
@@ -24,23 +25,22 @@ class IngestionPipeline:
         vectorstore = get_vectorstore()
         for offset in range(0, len(documents), batch_size):
             batch = documents[offset:offset + batch_size]
-            # Wait the specified time before processing the next batch to avoid rate limiting
-            # Manejo de reintentos con respaldo exponencial (Exponential Backoff)
             for attempt in range(1, max_retries + 1):
                 try:
-                    print(f"Procesando lote con offset {offset} (Intento {attempt}/{max_retries})...")
+                    print(f'Processing batch {offset // batch_size + 1} of {len(documents) // batch_size + 1}, attempt {attempt} of {max_retries} for batch with offset {offset}')
                     vectorstore.add_documents(batch)
-                    break 
+                    break
                 except Exception as e:
                     if "429" in str(e) or "ResourceExhausted" in str(e):
-                        wait = 2 ** attempt * 5
+                        wait = min(120, 30 * 2 ** (attempt - 1)) + random.uniform(0, 5)
                         print(f"Límite de tasa alcanzado. Esperando {wait}s antes de reintentar...")
                         time.sleep(wait)
                     else:
                         raise e
             else:
                 raise RuntimeError(f"Fallo definitivo al procesar el lote con offset {offset}")
-            time.sleep(wait_time) # Wait before processing the next batch
+            if offset + batch_size < len(documents):
+                time.sleep(wait_time)
         return documents
 
 
