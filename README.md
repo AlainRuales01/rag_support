@@ -64,3 +64,20 @@ Where:
 ├── requirements.txt
 └── README.md
 ```
+
+## API
+
+Start the Flask server from the project root:
+
+```powershell
+python app.py
+```
+
+Query the RAG chain with `GET /query`. The `question` parameter is required,
+and at least one of `category`, `brand`, or `model` must be provided:
+
+```text
+http://127.0.0.1:5000/query?category=impresora&brand=EPSON&model=L355&question=%C2%BFC%C3%B3mo%20puedo%20saber%20si%20el%20nivel%20de%20tinta%20es%20bajo%3F
+```
+
+The endpoint returns the generated answer as JSON in the `response` property.
