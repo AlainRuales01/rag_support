@@ -1,0 +1,838 @@
+[
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 0,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "2500C\nHP\nProfessional Series Color Printer\nGU\u00cdA DEL USUARIO",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 1,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Reconocimientos\nHP ColorSmart II, HP PhotoREt II y HP ZoomSmart Scaling Technology son\nmarcas registradas de Hewlett-Packard Company.\nMicrosoft es una marca registrada Microsoft Corporation.\nWindows es una marca comercial de Microsoft Corporation.\nAdobe es una marca registrada de Adobe Systems Incorporated\nPostScript es una marca comercial de Adobe Systems Incorporated\nNetWare y Novell son marcas registradas de Novell Corporation.\nAviso\nLa informaci\u00f3n contenida en este documento est\u00e1 sujeta a cambios sin aviso.\nHewlett-Packard no otorga ninguna garant\u00eda de ninguna clase sobre este\nmaterial, incluyendo las garant\u00edas impl\u00edcitas de comercializaci\u00f3n e idoneidad\npara un fin determinado, pero sin limitarse a ellas.\nHewlett-Packard no se hace responsable de los errores aqu\u00ed contenidos ni de\nlos da\u00f1os incidentales y consecuentes en relaci\u00f3n al equipo, el rendimiento\ny el uso de este material.\nEste documento ni ninguna de sus partes, puede ser fotocopiado, reproduci-\ndo o traducido a ning\u00fan otro idioma sin el consentimiento previo por escrito\nde Hewlett-Packard Company.",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 2,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "CONTENIDO\n2500C\nHP\nContenido\nCaracter\u00edsticas b\u00e1sicas de la impresora\n1\nResumen\n1\nRequisitos del sistema\n1\nCaracter\u00edsticas y ventajas de la impresora\n1\nPartes de la impresora y localizaci\u00f3n de las mismas\n2\nDise\u00f1o del panel de control\n2\nTeclas del panel de control\n3\nIndicadores luminosos\n3\nTareas b\u00e1sicas de impresi\u00f3n\n4\nResumen\n4\nCarga de las bandejas\n4\nCarga en la bandeja 2 de un sustrato de impresi\u00f3n \nutilizado frecuentemente\n5\nCarga en la bandeja 3 de un sustrato de impresi\u00f3n \nutilizado frecuentemente\n6\nCarga de papel en la bandeja 1\n7\nCarga de papel en el alimentador manual posterior\n8\nControl y reposici\u00f3n de los cartuchos de tinta\n8\nSustituci\u00f3n de los cabezales de impresi\u00f3n\n9\nUtilizaci\u00f3n del software de las impresoras HP 2500 Series\n10\nComponentes del software de impresora PCL\n10\nCambio de los valores de impresi\u00f3n\n11\nUtilizaci\u00f3n de la impresora en una red\n11\nMantenimiento de la impresora\n12\nLimpieza de los cabezales\n12\nAlineaci\u00f3n de los cabezales\n12\nCalibraci\u00f3n del color\n13\nResoluci\u00f3n de problemas\n13\nSugerencias generales para la resoluci\u00f3n de problemas\n13\nSoluci\u00f3n de problemas desde el Cuadro de herramientas\n14\nPara usar la funci\u00f3n de resoluci\u00f3n de problemas \ndel Cuadro de herramientas de la impresora \nHP 2500C Series en Windows 95, 98 y NT 4.0:\n14\nPara usar la funci\u00f3n de resoluci\u00f3n de problemas \ndel Cuadro de herramientas de la impresora \nHP 2500C Series en Windows 3.1x\n14\nLa impresora no imprime\n15\nSe imprime una p\u00e1gina total o parcialmente en blanco\n15\nCalidad de impresi\u00f3n baja o mala\n16\nHay textos o gr\u00e1ficos cortados\n16\nSe imprimen caracteres extra\u00f1os\n17\nEliminaci\u00f3n de los atascos de papel\n17\nDiagn\u00f3sticos de los cabezales de impresi\u00f3n\n18",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 3,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Ap\u00e9ndice A - Men\u00fas del panel de control\n19\nResumen\n19\nMEN\u00da DE GESTI\u00d3N DE PAPEL\n20\nMEN\u00da DE DIAGN\u00d3STICOS\n21\nMEN\u00da DE INFORMACI\u00d3N\n21\nMEN\u00da VERIF. AUTOM\u00c1TICA\n22\nMEN\u00da DE CALIDAD DE IMPRESI\u00d3N\n22\nMEN\u00da DE IMPRESI\u00d3N\n23\nMEN\u00da DE ENTRADA/SALIDA\n24\nMEN\u00da DE RECUPERACI\u00d3N\n24\nMEN\u00da DE CONFIGURACI\u00d3N\n25\nMEN\u00da MIO\n25\nMEN\u00da POSTSCRIPT (s\u00f3lo para HP 2500CM \no con kit de actualizaci\u00f3n PostScript)\n25\nAp\u00e9ndice B - Comprensi\u00f3n de los mensajes de la impresora\nMensajes de la impresora m\u00e1s comunes\n26\nAp\u00e9ndice C - Margen\u00e9s de impresi\u00f3n m\u00ednimos \nTama\u00f1o del papel Margen izquierdo\n29\nAp\u00e9ndice D - Comprensi\u00f3n de las pruebas de diagn\u00f3stico\n30\nAp\u00e9ndice E - Atenci\u00f3n al cliente\n31",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 4,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Resumen\nFelicitaciones por haber comprado una impresora en color de la serie HP\n2500C/CM. Si a\u00fan no ha instalado la impresora, vea el p\u00f3ster de instalaci\u00f3n y lea\nlas instrucciones de la Gu\u00eda de instalaci\u00f3n inicial, que se entregan con la impresora.\nAhora que la impresora est\u00e1 instalada y lista para utilizar, t\u00f3mese su tiempo para\nconocer c\u00f3mo funciona la impresora. Esta secci\u00f3n explica lo siguiente:\n\u2022\nRequerimientos del sistema\n\u2022\nCaracter\u00edsticas y ventajas de la impresora.\n\u2022\nPartes de la impresora y localizaci\u00f3n de las mismas.\n\u2022\nDise\u00f1o del panel de control\n\u2022\nTeclas del panel de control\n\u2022\nIndicadores luminosos\nRequisitos del sistema\nPlease ensure that you have the following computer setup:\nM\u00ednimo: \nWindows 3.1x: 486DX-66,  8Mb RAM\nWindows 95/98: 486DX-100,  8Mb RAM\nWindows NT 4.0/5.0: 486DX-100, 16Mb RAM\nMacintosh System 7.5.3 o posterior: 68040 \u2013 8Mb RAM\nRecomendado: \nWindows 3.1x: Pentium 150/166, 16 Mb RAM\nWindows 95/98, Pentium 150/166, 16 Mb RAM\nWindows NT 4.0, Pentium 150/166, 32Mb RAM\nMacintosh System 8 o posterior: Power PC \u2013 16Mb RAM\n50MB de espacio libre en disco para impresi\u00f3n en\ntama\u00f1o 11x17 o A3. Los archivos con muchos gr\u00e1ficos\npueden necesitar m\u00e1s espacio en disco.\nCaracter\u00edsticas y ventajas de la impresora\nIntegraci\u00f3n transparente para trabajo en grupo con caracter\u00edsticas de red robustas\n\u2022 La impresora HP 2500C/CM Color soporta la mayor\u00eda de los \nprotocolos y sistemas operativos de red.\n\u2022 Es f\u00e1cil de instalar y configurar usando HP JetAdmin y WebJetAdmin.\n\u2022 Soporta PostScript 3 de Adobe para permitir la portabilidad \nreal de documentos, ampliable a 76 Mb si es necesario. \nEsta posibilidad est\u00e1 disponible en la impresora HP 2500CM \no si tiene instalado el kit de actualizaci\u00f3n PostScript.\n\u2022 El panel de control (compuesto por el panel LCD y las teclas) \nes muy f\u00e1cil de usar para simplificar la configuraci\u00f3n de la \nimpresora y reducir la intervenci\u00f3n de personal especializado.\n2500C\nHP\nCaracter\u00edsticas b\u00e1sicas de la impresora\n1",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 5,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Ahorro significativo de coste y aumento de velocidad gracias a la utilizaci\u00f3n del\nnuevo sistema MIDS (Sistema modular de transferencia de tinta) de HP.\n\u2022 Los nuevos cabezales de impresi\u00f3n de media pulgada imprimen con\nrecorridos m\u00e1s largos con lo que se consigue una significativa ganancia\nde velocidad de hasta 9 ppm en negro y 7 ppm en color.\n\u2022 El nuevo MIDS de HP se comunica con un peque\u00f1o chip inteligente\nincorporado en cada cabezal y cartucho de tinta, para controlar \nrespectivamente la vida \u00fatil del cabezal y los niveles de tinta.\n\u2022 La impresi\u00f3n en color se hace mucho m\u00e1s asequible gracias al menor\ncoste por p\u00e1gina.\nCon HP PhototREt II, supera las expectativas de color del grupo de trabajo (hasta\n330 x 482 mm)\n\u2022\nPhotoREt II utiliza una gota de tinta incre\u00edblemente peque\u00f1a para poder\ncrear m\u00e1s tonalidades de color, transiciones m\u00e1s suaves entre tonalidades\ny una salida de gran vivacidad sobre cualquier papel.\n\u2022\nImprime hasta 330 x 482 mm / A3 cuando lo necesite.\nPartes de la impresora y localizaci\u00f3n de las mismas\nCubierta superior\nRet\u00e9n de los cabezales\nInterruptor\nde corriente\nBandeja 3\nBandeja 2\nSelector \nde papel\nCubierta de acceso\na los cabezales\nPuerta de acceso\na los cabezales\nPuerta de \nacceso \nposterior\nPanel \nposterior\nBandeja 1/\nBandeja de salida\nCubierta de \nla bandeja extendida\nPanel LCD\nBot\u00f3n Men\u00fa\nBot\u00f3n Elemento\nBot\u00f3n Valor\nBot\u00f3n \nSeleccionar\nBot\u00f3n \nCancelar trabajo\nAtenci\u00f3n (Rojo)\nPreparada (Verde)\n(Go)\nDise\u00f1o del panel de control\n2",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 6,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "(Iniciar)\n\u2022 Coloca la impresora en l\u00ednea o fuera de l\u00ednea.\n\u2022 Permite que la impresora reanude la impresi\u00f3n despu\u00e9s de haber estado\nfuera de l\u00ednea. Limpia la mayor\u00eda de los mensajes y coloca la impresora\nen l\u00ednea.\n\u2022 Permite que la impresora contin\u00fae imprimiendo con mensajes de \nadvertencia tales como CARGA BANDEJA x [TIPO] [TAMA\u00d1O] o TAMA\u00d1O\nPAPEL INUSUAL.\n\u2022 Para salir de los men\u00fas del panel de control. (Para guardar valores \nentrados mediante el panel de control, pulse antes el bot\u00f3n [Seleccionar].).\n\u2022 Muestra los c\u00f3digos de error irrecuperables.\n[Cancelar \nCancela el trabajo de impresi\u00f3n que se est\u00e1 procesando actualmente. \ntrabajo]\nEl tiempo que tarde en cancelar depende del tama\u00f1o del trabajo de \nimpresi\u00f3n. (P\u00falselo s\u00f3lo una vez.)\n[Men\u00fa]\nRecorre c\u00edclicamente los men\u00fas del panel de control. Para imprimir un\nmapa de men\u00fa desde el panel de control:\n1. Pulse [Men\u00fa] hasta que aparezca MEN\u00da VERIF. AUTOM\u00c1TICA.\n2. Pulse [Elemento] hasta que aparezca IMPRIMIR MAPA DE MEN\u00da.\n3. Pulse [Seleccionar] para imprimir el mapa de men\u00fa.\nPara obtener informaci\u00f3n sobre cada elemento de men\u00fa, vea el Ap\u00e9ndice A -Men\u00fas\ndel panel de control.\n[Elemento]\nRecorre c\u00edclicamente los elementos del men\u00fa seleccionado.\n[Valor]\nRecorre c\u00edclicamente los valores del elemento del men\u00fa seleccionado.\n[Seleccionar]\n\u2022 Guarda el valor seleccionado para el elemento. Al lado de la selecci\u00f3n\naparece un asterisco (*) para indicar que es el nuevo valor \npredeterminado. Los valores predeterminados permanecen cuando\napaga la impresora o la reinicia, a menos que con el [MEN\u00da DE \nRECUPERACI\u00d3N] restablezca la configuraci\u00f3n de f\u00e1brica.\n\u2022 Imprime la p\u00e1gina de informaci\u00f3n seleccionada desde el panel de control.\nIndicadores luminosos\nEn la impresora hay dos indicadores luminosos o LED: \nIndicadores LED\nColor\nFunci\u00f3n\nPreparada\nVerde\nEst\u00e1 encendido mientras la impresora est\u00e1 imprim-\niendo, en estado normal, o cuando est\u00e1 en l\u00ednea.\nAtenci\u00f3n\nRojo\nParpadea cuando la impresora tiene un error o\nnecesita atenci\u00f3n.\nPara m\u00e1s informaci\u00f3n vea la secci\u00f3n de Resoluci\u00f3n de\nproblemas.\nTeclas del panel de control\n3",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 7,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Resumen \nEsta secci\u00f3n contiene informaci\u00f3n sobre las tareas b\u00e1sicas de impresi\u00f3n, por ejemplo:\n\u2022\nCarga de las bandejas\n\u2022\nControl y reposici\u00f3n de los cartuchos de tinta\n\u2022\nSustituci\u00f3n de los cabezales de impresi\u00f3n\n\u2022\nUtilizaci\u00f3n del software de las impresoras HP 2500C Series\n\u2022\nUtilizaci\u00f3n de la impresora en una red\nCarga de las bandejas\nLa impresora en color de la serie profesional HP 2500C/CM tiene 3 bandejas de\npapel y un alimentador manual posterior que le confieren una mayor capacidad\nde gesti\u00f3n del papel.\nBandeja 1 - Esta bandeja act\u00faa como bandeja multiuso. Puede contener hasta \n10 hojas de papel y se usa para tipos y tama\u00f1os de papel que se utilizan de vez \nen cuando.\nBandeja 2 - Esta bandeja puede contener hasta 150 hojas de papel. Se recomienda\nutilizarla para el papel de uso corriente.\nBandeja 3 - Esta bandeja puede contener hasta 250 hojas de papel. Se recomienda\nutilizarla para el papel de uso corriente.\nAlimentador manual posterior -  Este alimentador est\u00e1 dise\u00f1ado para poder \nofrecer una ruta directa del papel que facilite la impresi\u00f3n en papeles m\u00e1s \ngruesos (hasta 0,3 mm), por ejemplo tarjetas o etiquetas sin doblar. Esta forma \nde alimentaci\u00f3n s\u00f3lo le permite imprimir una hoja cada vez.\n4\n2500C\nHP\nTareas b\u00e1sicas de impresi\u00f3n",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 8,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Carga en la bandeja 2 de un sustrato de impresi\u00f3n utilizado frecuentemente\nNota: La bandeja 2 est\u00e1 dise\u00f1ada para contener hasta 150 hojas de papel y puede ajustarse a\ntama\u00f1os Letter, A4, Legal, B4, A3, 279 x 432 mm (11\u201dx17\u201d), y 330 x 483 mm (13\u201dx19\u201d).\n1. \nQuite la bandeja 1.\n2. Si quiere cargar la bandeja con un papel de tama\u00f1o diferente al que est\u00e1 \nasignado a la bandeja, vaya al paso 3. Si quiere cargar la bandeja con el\nmismo papel que el actual, vaya al paso 5. \n3. \nColoque las gu\u00edas de longitud y anchura del papel en las ranuras \ncorrespondientes. Las marcas de tama\u00f1o del papel est\u00e1n indicadas al lado \nde cada ranura.\n4. Si est\u00e1 cargando papel de tama\u00f1o B4, A3, 279 x 432 mm (11\u201dx17\u201d) o \n330 x 483 mm (13\u201dx19\u201d), desbloquee la bandeja, exti\u00e9ndala y vu\u00e9lvala a \nbloquear. Si est\u00e1 cargando papel de tama\u00f1o Letter, A4 o Legal, compruebe\nque la bandeja no est\u00e9 extendida. Si lo est\u00e1, desbloquee la bandeja, \nred\u00fazcala y vuelva a bloquearla.\n5. Inserte el papel en la impresora, con la cara a imprimir hacia abajo.\n6. D\u00e9 unos golpecitos sobre el lado izquierdo de la pila de hojas para asegurarse\nque la pila se alinea sobre el lado derecho de la bandeja.\n5\n2\n1\n3\n2\n2\n3\n5\n6\n4",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 9,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "7. \nVuelva a colocar la bandeja 1.\n8. Si la bandeja 2 est\u00e1 extendida, coloque sobre ella la cubierta de bandeja extendida.\n9. Si est\u00e1 cargando un sustrato de impresi\u00f3n diferente, pulse [Men\u00fa] en el panel\nde control hasta que aparezca el MEN\u00da DE GESTI\u00d3N DE PAPEL.\n10. Pulse [Elemento] para seleccionar TIPO BANDEJA 2 =\n11. Pulse [Valor] para seleccionar el tipo de sustrato de impresi\u00f3n que ha cargado\nen la bandeja y pulse [Seleccionar].\nHaga clic para ver una secuencia de v\u00eddeo con los pasos necesarios para\ncargar el papel del tipo Letter, Legal o A4.\nHaga clic para ver una secuencia v\u00eddeo con los pasos necesarios para cargar\nel papel B4, A3, 279 x 432 mm (11\u201d x 17\u201d), 330 x 483 mm (13\u201d x 19\u201d).\nCarga en la bandeja 3 de un sustrato de impresi\u00f3n utilizado frecuentemente\n1. \nSaque la bandeja 3 de la impresora asi\u00e9ndola por los laterales.\n2. Si quiere cargar la bandeja con un papel de tama\u00f1o diferente al que est\u00e1 \nasignado a la bandeja, vaya al paso 3. Si quiere cargar la bandeja con el\nmismo papel que el actual, vaya al paso 5.\n3. \nColoque las gu\u00edas de longitud y anchura del papel en las ranuras \ncorrespondientes. Las marcas de tama\u00f1o del papel est\u00e1n indicadas al \nlado de cada ranura.\n7\n8\n3 A3\n3\n3\n3\n1\n2\n6",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 10,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "4. Si est\u00e1 cargando papel de tama\u00f1o B4, A3, 279 x 432 mm (11\u201dx17\u201d) o \n330 x 483 mm (13\u201dx19\u201d), desbloquee la bandeja, exti\u00e9ndala y vu\u00e9lvala a \nbloquear. Si est\u00e1 cargando papel de tama\u00f1o Letter, A4 o Legal, compruebe\nque la bandeja no est\u00e9 extendida. Si lo est\u00e1, desbloquee la bandeja, \nred\u00fazcala y vuelva a bloquearla.\n5. Cargue el papel alineando primero su borde con la gu\u00eda correspondiente al\nlargo del papel. D\u00e9 unos golpecitos al otro extremo de la pila de papel para\nasegurarse de que el papel est\u00e1 cargado correctamente.\n6. \nVuelva a colocar la bandeja 3 en la impresora.\n7. \nSi la bandeja 3 est\u00e1 extendida, coloque sobre ella la cubierta de bandeja extendida.\n8. Si est\u00e1 cargando un sustrato de impresi\u00f3n diferente, pulse [Men\u00fa] en el panel\nde control hasta que aparezca el MEN\u00da DE GESTI\u00d3N DE PAPEL.\n9. Pulse [Elemento] para seleccionar TIPO BANDEJA 3 =\n10. Pulse [Valor] para seleccionar el tipo de sustrato de impresi\u00f3n que ha cargado\nen la bandeja y pulse [Seleccionar].\nHaga clic para ver una secuencia de v\u00eddeo con los pasos necesarios para\ncargar el papel del tipo Letter, Legal o A4.\nHaga clic para ver una secuencia v\u00eddeo con los pasos necesarios para cargar\nel papel B4, A3, 279 x 432 mm (11\u201d x 17\u201d), 330 x 483 mm (13\u201d x 19\u201d).\nCarga de papel en la bandeja 1\n1. \nConfigure su controlador para que imprima el documento con el papel de la\nbandeja 1. \nPara m\u00e1s informaci\u00f3n sobre c\u00f3mo establecer las configuraciones de impresi\u00f3n, \nvea la secci\u00f3n Cambio de los valores de impresi\u00f3n.\n2. Despu\u00e9s de enviar a imprimir su documento, el panel LCD mostrar\u00e1 el \nmensaje \u201cBANDEJA 1 CARGADA [TIPO] [TAMA\u00d1O]\u201d donde [TIPO] y [TAMA\u00d1O]\nson respectivamente el tipo de papel y el tama\u00f1o especificados en su \ncontrolador de impresora.\n3. \nMueva la gu\u00eda de anchura del papel hasta su posici\u00f3n m\u00e1s extrema.\n7\n4\n3 A3\n5\n6\n7\n1",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 11,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "4. Inserte un m\u00e1ximo de 10 hojas de papel a lo largo del lado derecho de la\nbandeja 1, con la cara a imprimir hacia abajo, hasta que haga tope.\n5. Deslice la gu\u00eda de anchura del papel hasta que se tope con el borde del papel.\n6. Pulse el bot\u00f3n     para imprimir.\nHaga clic para ver una secuencia de v\u00eddeo con el procedimiento descrito arriba.\nCarga de papel en el alimentador manual posterior.\n1. \nConfigure el controlador para que tome el paper del alimentador manual\nposterior e imprima su documento.\nPara m\u00e1s informaci\u00f3n sobre c\u00f3mo establecer las configuraciones de impresi\u00f3n, vea la\nsecci\u00f3n Cambio de los valores de impresi\u00f3n.\n2. Una vez enviado el trabajo de impresi\u00f3n a la impresora, en el panel LCD\naparecer\u00e1 el mensaje \u201cCARGA AL MANUAL [TIPO] [TAMA\u00d1O]\u201d donde [TIPO] y\n[TAMA\u00d1O] son el tipo y el tama\u00f1o del sustrato de impresi\u00f3n tal como est\u00e1n\nrespectivamente especificados en el controlador de impresora.\n3. \nInserte el sustrato de impresi\u00f3n en el alimentador manual posterior de la\nimpresora, asegur\u00e1ndose de que el borde de la hoja est\u00e1 alineado con la\nmarca de alineaci\u00f3n del lado izquierdo de la ranura. Espere que la impresora\narrastre el sustrato de impresi\u00f3n antes de soltarlo.\nHaga clic para ver una secuencia de v\u00eddeo con el procedimiento descrito\narriba.\nControl y reposici\u00f3n de los cartuchos de tinta\nLa impresora controla y muestra en el panel LCD la cantidad de tinta que queda\nen cada cartucho. Cuando la tinta est\u00e1 a punto de terminarse en alguno de los \ncartuchos, en el panel LCD aparecer\u00e1 un mensaje de aviso. Cuando esto suceda, \nel cartucho de tinta todav\u00eda tendr\u00e1 suficiente tinta para poder imprimir unos \ncuantos trabajos m\u00e1s. No obstante, se recomienda tener a punto el recambio\ndespu\u00e9s de que aparezca este mensaje.\nCuando se haya terminado la tinta de cualquiera de los cartuchos, en el panel LCD\naparecer\u00e1 el mensaje [SIN TINTA X, CAMBIE CARTUCHO] (donde X es el color del\ncartucho). A partir de entonces, no podr\u00e1 imprimir hasta que cambie el cartucho\ncorrespondiente.\nPara ello:\n1. \nTire hacia arriba para abrir la puerta de acceso a los cartuchos\n2. Saque el cartucho que ya no tiene tinta.\n3. \nSaque el nuevo cartucho de su envoltorio e ins\u00e9rtelo en la ranura que le \ncorresponda a su color.\n4. Apriete firmemente el cartucho de tinta.\nHaga clic para ver una secuencia de v\u00eddeo con el procedimiento descrito\narriba.\n1\n8",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 12,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Nota: \nUtilice s\u00f3lo cartuchos de tinta HP N\u00ba 10. El uso de cartuchos incompatibles puede da\u00f1ar el\ncomplejo sistema de impresi\u00f3n, y potencialmente puede reducir la calidad de impresi\u00f3n e\nincluso provocar da\u00f1os en la impresora. HP no garantiza los cartuchos de tinta de otras \nmarcas ni los da\u00f1os producidos a la impresora por la utilizaci\u00f3n de dichos cartuchos. \nPara m\u00e1s informaci\u00f3n sobre el material de HP, consulte la Gu\u00eda de instalaci\u00f3n inicial.\nSustituci\u00f3n de los cabezales de impresi\u00f3n\nSi alguno de los cabezales falla, la impresora mostrar\u00e1 un mensaje de error y no\npodr\u00e1 imprimir. Cuando suceda esto, reemplace el cabezal. Para m\u00e1s informaci\u00f3n,\nconsulte la secci\u00f3n Resoluci\u00f3n de problemas. \n1. \nAseg\u00farese de que la impresora est\u00e1 encendida.\n2. Abra la puerta de acceso a los cartuchos de tinta.\n3. \nSujete la cubierta de acceso a los cabezales por el lateral y tire de ella hacia\narriba hasta abrirla. Ret\u00edrela de la impresora. Tal vez resulte necesario aplicar\nalgo de fuerza para poder abrir la cubierta.\n4. Abra el ret\u00e9n de los cabezales tirando de \u00e9l hacia usted. Una vez quitado,\nponga el ret\u00e9n otra vez hacia la parte posterior de la impresora.\n5. Saque el cabezal da\u00f1ado levant\u00e1ndolo de su z\u00f3calo.\n6. Saque el cabezal nuevo de su envoltorio.\n7. \nQuite la cinta protectora del cabezal.\n8. Inserte el cabezal nuevo en la ranura que corresponda a su color.\n9. Presione el cabezal hacia abajo con firmeza.\n9\n1\n6\n4\n8\n9\n7\n5\n3\n2",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 13,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "10. Cierre el ret\u00e9n de los cabezales. Aseg\u00farese de que el gancho del ret\u00e9n queda\ntrabado en el bloqueo del carro. Es posible que sea necesario aplicar algo de\nfuerza para poder cerrar el ret\u00e9n de los cabezales de impresi\u00f3n.\n11. Aseg\u00farese de que la puerta de acceso a los cartuchos de tinta est\u00e1 levantada.\nAlinee las leng\u00fcetas de la cubierta con las leng\u00fcetas de la impresora.\n12. Baje la cubierta y ci\u00e9rrela.\n13. Cierre la puerta de acceso a los cartuchos de tinta.\nHaga clic para ver una secuencia de v\u00eddeo con el procedimiento descrito\narriba.\nUtilizaci\u00f3n del software de las impresoras HP 2500 Series\nLa impresora en color HP 2500C Series viene con dos programas de impresi\u00f3n\nque hacen que la impresi\u00f3n desde programas basados en Windows sean m\u00e1s \nr\u00e1pidas y sencillas que nunca. El controlador PLC est\u00e1 disponible en impresoras \nHP 2500C y HP 2500CM. El controlador PostScript est\u00e1 disponible para la \nimpresora HP 2500CM y tambi\u00e9n en el kit de actualizaci\u00f3n PostScript.\nComponentes del software de impresora PCL\nEl controlador de impresora HP 2500C viene con los siguientes componentes:\n\u2022 Cuadro de herramientas da acceso a toda la informaci\u00f3n que necesita \nmientras utiliza la impresora. Da informaci\u00f3n de estado como el trabajo \nactual y los valores de impresi\u00f3n utilizados actualmente y le permite cancelar\nel trabajo.\n\u2022 Desinstalador: proporciona una forma f\u00e1cil y eficiente de desinstalar el \nsoftware de la impresora y eliminar del registro de Windows todas las entradas\npertenecientes al software de la impresora.\n\u2022 Acceso al sitio web de HP: con enlaces a sitios web de HP donde encontrar\u00e1\nel software de impresi\u00f3n m\u00e1s actualizado y la m\u00e1s reciente informaci\u00f3n de\nproductos y de soporte.\n\u2022 WebReg es una utilidad que le permite registrar su impresora a trav\u00e9s de\nInternet. Registrarla, le da derecho a recibir informaci\u00f3n sobre actualizaciones\nde software y futuros productos de HP.\n10\n11\n12\n10",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 14,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Cambio de los valores de impresi\u00f3n\nSeleccione su impresora\nPara usar su impresora color HP 2500C Series, aseg\u00farese de que est\u00e1 seleccionada\ncomo impresora predeterminada.\nEn Windows 95, 98 o NT 4.0:\n1.\nHaga clic en Inicio, seleccione Configuraci\u00f3n y luego Impresoras.\n2. Haga clic en el icono de la impresora HP 2500C Series para seleccionarla.\n3. Haga clic con el bot\u00f3n 2 del rat\u00f3n y seleccioneConfigurarcomo predeterminada.\nEn Windows 3.1\n1. En el Administrador de programas, abra el grupo Principal.\n2. Haga doble clic en el Panel de control para abrirlo, y a continuaci\u00f3n haga\ndoble clic en Impresoras.\n3. En la lista de Impresoras instaladas, seleccione la impresora HP 2500C\nSeries, y haga clic en Configurar como predeterminada.\n4. Haga clic en Cerrar y salga del Panel de control.\nCambio de la configuraci\u00f3n de impresi\u00f3n\nEl cuadro de di\u00e1logo Ajustes de impresi\u00f3n de la HP 2500C le permite seleccionar\nlas opciones de impresi\u00f3n tales como el tipo de papel y la calidad de impresi\u00f3n,\nque no son suministrados por el software las aplicaciones.\nPuede cambiar los ajustes de impresi\u00f3n para los documentos actuales desde su\nprograma de aplicaci\u00f3n. Este procedimiento variar\u00e1 dependiendo del programa\nque est\u00e9 usando.\n1. Seleccione Imprimir, Configurar impresora o Configuraci\u00f3n de impresora,\ndesde el men\u00fa Archivo.\n2. Haga clic en Impresora, Configuraci\u00f3n, Opciones o Propiedades dependi-\nendo de su aplicaci\u00f3n.\n3a. Si en el paso 2 hizo clic en Impresora, necesitar\u00e1 hacer clic en Opciones, y\nluego en Configuraci\u00f3n.\n3b. Si hizo clic en Configuraci\u00f3n, ver\u00e1 el cuadro de ajustes de impresi\u00f3n de la\nHP 2500C, o deber\u00e1 hacer clic en Opciones.\n3c. Si hizo clic en Opciones, necesitar\u00e1 hacer clic en Configuraci\u00f3n.\n3d. Si hizo clic en Propiedades, ver\u00e1 el cuadro de di\u00e1logo de ajustes de \nimpresi\u00f3n de la HP 2500C.\n4. Cambie los valores en el cuadro de di\u00e1logo de ajustes de impresi\u00f3n de la\nHP 2500C.\nUtilizaci\u00f3n de la impresora en una red\nLa impresora HP 2500C Professional Series Color tiene una ranura donde puede\ninstalar uno de los servidores de impresi\u00f3n JetDirect MIO de HP soportados.\nNota:\n\u2022\nPara m\u00e1s informaci\u00f3n sobre el cumplimiento de los requisitos del a\u00f1o 2.000 en su \nimpresi\u00f3n en red, consulte la Gu\u00eda de trabajo en red.\n\u2022\nPara conseguir una lista de los servidores de impresi\u00f3n JetDirect MIO soportados, \nconsulte nuestra p\u00e1gina de Web a la direcci\u00f3n siguiente: www.hp.com/go/hp2500.\n11",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 15,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Este secci\u00f3n contiene informaci\u00f3n sobre utilidades para el mantenimiento de la impresora.\nIncluye:\n\u2022 \nLimpieza de los cabezales\n\u2022 \nAlineaci\u00f3n de los cabezales\n\u2022 \nCalibraci\u00f3n del color\nLimpieza de los cabezales\nCuando la calidad de la impresi\u00f3n disminuya notablemente, es recomendable \nutilizar la utilidad \u201cLimpiar los cabezales\u201d. Desde el Cuadro de herramientas de su\nordenador o desde el panel de control de la impresora. Haga clic en la pesta\u00f1a\nMantenimiento del Cuadro de herramientas si decide limpiar los cabezales desde \u00e9l.\nLa utilidad \u201cLimpiar los cabezales\u201d tiene 3 niveles de limpieza. Cada nivel de\nlimpieza utiliza un poco de tinta para limpiar los cabezales. Es recomendable siempre\niniciar la limpieza con el Nivel 1 antes de pasar a los niveles siguientes. Tenga en\ncuenta que el Nivel 3 es el que m\u00e1s tiempo tarda y el que m\u00e1s tinta consume.\nPara ejecutar la utilidad \u201cLimpiar los cabezales\u201d desde el panel de control:\n1. \nPulse [Men\u00fa] hasta que aparezca MEN\u00da DE DIAGN\u00d3STICOS.\n2. Pulse [Elemento] hasta que aparezca LIMPIAR CABEZAL: NIVEL 1, 2 o 3.\n3. \nPulse [Seleccionar] para limpiar los cabezales.\nAlineaci\u00f3n de los cabezales\nAunque la p\u00e9rdida de alineaci\u00f3n no se detecte a simple vista, es recomendable\nalinear los cabezales cada vez que en el panel LCD aparezca el mensaje \n\u201cCABEZALES NO ALINEADOS\u201d. Esto le dar\u00e1 la seguridad de que trabaja con la\nm\u00e1xima calidad de impresi\u00f3n.\nPuede alinear los cabezales desde el Cuadro de herramientas o desde el panel \nde control. Haga clic en la pesta\u00f1a Mantenimiento del Cuadro de herramientas si\ndecide alinear los cabezales desde \u00e9l.\nPara alinear los cabezales desde el panel de control:\n1. \nPulse [Men\u00fa] hasta que aparezca MEN\u00da DE DIAGN\u00d3STICOS.\n2. Pulse [Elemento] hasta que aparezca ALINEAR CABEZALES.\n3. \nPulse [Seleccionar].\n4. La impresora imprimir\u00e1 una p\u00e1gina con 5 juegos de patrones de alineaci\u00f3n.\n5. En cada juego (A, B, C, D o E) seleccione el par de l\u00edneas mejor alineado \n(el m\u00e1s recto): 1, 2, 3, 4 o 5.\n6. Introduzca los n\u00fameros correspondientes en el panel de control pulsando\n[Valor].\n7. \nCuando haya introducido los valores para un juego, pulse [Elemento] para\npasar al siguiente.\n2500C\nHP\nMantenimiento de la impresora\n12",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 16,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "8.\nCuando haya finalizado de introducir los valores pulse [Selecci\u00f3n].\n9. La impresora imprimir\u00e1 una p\u00e1gina de confirmaci\u00f3n con dos cuadrados y una cruz.\n10. Compruebe la p\u00e1gina de confirmaci\u00f3n para ver si las l\u00edneas en el cuadrado y\nen la cruz est\u00e1n rectas.\n11. Repita la alineaci\u00f3n si la p\u00e1gina de confirmaci\u00f3n no es satisfactoria.\nCalibraci\u00f3n del color\nSi las tonalidades de los colores de sus documentos tienden hacia el amarillo, \nel magenta o el azul, puede calibrar el color desde su ordenador mediante el\nCuadro de herramientas para compensar estas desviaciones. No es aconsejable\ncalibrar el color si los cambios en las tonalidades de color no son visibles.\nPara ejecutar la utilidad \u201cCalibrar color\u201d:\n1. \nHaga doble clic en el icono del Cuadro de herramientas del escritorio de su\nordenador.\n2. Haga clic en la pesta\u00f1a Mantenimiento\n3. \nHaga clic en Calibrar color y siga las instrucciones de la pantalla.\n2500C\nHP\nResoluci\u00f3n de problemas\nEsta secci\u00f3n contiene informaci\u00f3n sobre las diferentes herramientas disponibles \ny los pasos que pueden realizarse durante el diagn\u00f3stico y la resoluci\u00f3n de la\nmayor\u00eda de los problemas de la impresora.\nSugerencias generales para la resoluci\u00f3n de problemas\n1. Compruebe el panel LCD de la impresora. Si en \u00e9l aparece un mensaje \nde error Recuperable, consulte el Ap\u00e9ndice B - Comprensi\u00f3n de los\nmensajes de la impresora para obtener instrucciones sobre c\u00f3mo resolver\nel problema.\n2. Compruebe los LED de la impresora. Si el LED rojo est\u00e1 parpadeando, \nsignifica que la impresora est\u00e1 en estado de error o necesita atenci\u00f3n. \nSi parpadean ambos LED, la impresora tiene un error no recuperable.\nLCD Error Type \nEjemplo\nFunci\u00f3n\nRecuperable \nFuera de l\u00ednea,\nConsulte la Gu\u00eda de referencia r\u00e1pida de la \nPoca tinta, etc.\nHP 2500C para obtener informaci\u00f3n sobre \ncomo resolver dichos errores.\nNo recuperable\nC\u00d3DIGO DE \nSu impresora puede tener un problema de \nERROR: XXXX \nhardware. Ap\u00e1guela y vuelva a encenderla.   \nSi el mensaje persiste, llame a HP.\n13",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 17,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Error no recuperable\nSi el panel LCD tiene un mensaje de error no recuperable o la impresora est\u00e1 en\nestado de error no recuperable:\n1. Apague la impresora pulsando el bot\u00f3n de arranque. Desconecte todos los\ncables y espere unos 10 segundos. Reconecte los cables y encienda la impresora.\n2. Si la impresora se enciende y se recupera del estado de error, en el panel\nLCD ver\u00e1 el mensaje \u201cLISTO\u201d.\n3. Aseg\u00farese de que las cintas que protegen las boquillas de tinta y los con-\ntactos el\u00e9ctricos han sido extra\u00eddas.\nPara obtener informaci\u00f3n sobre c\u00f3mo quitar las cintas, vea la secci\u00f3n Sustituci\u00f3n de\nlos cabezales de impresi\u00f3n.\n4. Si el error persiste, le recomendamos que llame a HP para solicitar \nasistencia t\u00e9cnica.\nTenga preparada la informaci\u00f3n siguiente:\n\u2022 Modelo\n\u2022 N\u00famero de serie de la impresora\n\u2022 N\u00famero del c\u00f3digo de error\nSoluci\u00f3n de problemas desde el Cuadro de herramientas\nSi ha ocurrido un problema de impresi\u00f3n, puede usar la funci\u00f3n de resoluci\u00f3n de\nproblemas incluida en el Cuadro de herramientas de su HP 2500c Series. En el\nCuadro de herramientas, haga clic en la pesta\u00f1a Soluci\u00f3n de problemas. En el\nCuadro de herramientas, la informaci\u00f3n para resolver problemas est\u00e1 dise\u00f1ada\npara ayudarle a diagnosticar y solucionar la mayor\u00eda de los problemas que puede\ntener su impresora.\nPara usar la funci\u00f3n de resoluci\u00f3n de problemas del Cuadro de herramientas\nde la impresora HP 2500C Series en Windows 95, 98 y NT 4.0:\n1. Haga doble clic en el icono del Cuadro de herramientas de la impresora \nHP 2500C Series del escritorio de su ordenador o haga clic en Inicio, \nseleccione Programas, seguido del grupo de programas HP 2500C Series.\n2. Haga clic en la pesta\u00f1a Soluci\u00f3n de problemas y siga las instrucciones de\nla pantalla.\nPara usar la funci\u00f3n de resoluci\u00f3n de problemas del Cuadro de herramientas\nde la impresora HP 2500C Series en Windows 3.1x\n1. Haga doble clic en el icono del Cuadro de herramientas de la impresora \nHP 2500C Series del grupo de programas Impresora HP 2500C Series.\n2. Haga clic en la pesta\u00f1a Soluci\u00f3n de problemas y siga las instrucciones \nde la pantalla.\n14",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 18,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "A continuaci\u00f3n, encontrar\u00e1 un resumen de las sugerencias para resoluci\u00f3n de\nproblemas, contenidas en el Cuadro de herramientas:\nLa impresora no imprime\n\u2022\nCompruebe la alimentaci\u00f3n de corriente\nAseg\u00farese de que al cable de alimentaci\u00f3n est\u00e1 firmemente conectado a la\nimpresora y a una toma de corriente que funciona, y que la impresora est\u00e1\nencendida. El LED verde debe estar encendido y en el panel LCD debe \naparecer \u201cLISTO\u201d.\n\u2022\nCompruebe la configuraci\u00f3n de la impresora\nAseg\u00farese de que su impresora HP 2500C Series est\u00e1 seleccionada como\nimpresora actual o predeterminada. Vea la secci\u00f3n Selecci\u00f3n de su impresora.\n\u2022\nCompruebe el puerto de impresora seleccionado\nAseg\u00farese de que el puerto seleccionado es el correcto y de que la impresora\nest\u00e1 conectada correctamente. Si su impresora est\u00e1 conectada a una caja de\nconmutaci\u00f3n, aseg\u00farese de que tiene seleccionada la posici\u00f3n correcta del\nconmutador. Si su impresora est\u00e1 en red, aseg\u00farese de que tiene asignado el\npuerto correcto.\n\u2022 \nImprima una p\u00e1gina de diagn\u00f3stico\nImprimiendo una P\u00e1gina de diagn\u00f3stico, verificar\u00e1 si la impresora est\u00e1 \nfuncionando correctamente. Para imprimir la p\u00e1gina de diagn\u00f3stico:\n1. Pulse [Men\u00fa] hasta que aparezca MEN\u00da VERIF. AUTOM\u00c1TICA\n2. Pulse [Elemento] hasta que aparezca IMPRIMIR P\u00c1G. DIAGN\u00d3STICO.\n3. Pulse [Seleccionar] para imprimir la p\u00e1gina de diagn\u00f3stico.\n\u2022 \nCompruebe la configuraci\u00f3n de la red\nSi su impresora est\u00e1 compartida en la red, aseg\u00farese de que est\u00e1 configurada\ncorrectamente en el entorno de red. Vea la Gu\u00eda de trabajo en red, junto con la\ndocumentaci\u00f3n proporcionada con la red utilizada.\n\u2022 \nCompruebe si hay problemas de alimentaci\u00f3n de papel\nAseg\u00farese de que el papel est\u00e1 cargado correctamente en las bandejas y que\nno hay papel atascado en la impresora. Compruebe si hay mensajes de atasco\nen el panel LCD. Vea la secci\u00f3n Carga de las bandejas. \nSi hay papel atascado en la impresora, vea la secci\u00f3n Eliminaci\u00f3n de atascos de papel. \nSe imprime una p\u00e1gina total o parcialmente en blanco\n\u2022\nCompruebe los cabezales de impresi\u00f3n\nLas nuevas cabezas de impresi\u00f3n vienen con una cinta protectora que tapa las\nboquillas. Aseg\u00farese de que la cinta ha sido quitada de los cabezales.\n\u2022 \nCompruebe la configuraci\u00f3n de la impresora\nAseg\u00farese de que su impresora HP 2500C Series est\u00e1 seleccionada como\nimpresora actual o predeterminada. Vea la secci\u00f3n Selecci\u00f3n de su impresora.\n15",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 19,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "\u2022\nLa bandeja 3 se extrajo durante la impresi\u00f3n\nSi se extrae la bandeja 3 mientras la impresora est\u00e1 imprimiendo, se cancelar\u00e1\nel trabajo y la p\u00e1gina ser\u00e1 expulsada. Espere que la p\u00e1gina haya sido impresa\ny expulsada de la impresora antes de quitar la bandeja.\nCalidad de impresi\u00f3n baja o mala\n\u2022\nCompruebe los valores de calidad de impresi\u00f3n\nCompruebe los valores que ha seleccionado para este trabajo de impresi\u00f3n \nen el software de la impresora. El modo EconoFast imprime m\u00e1s r\u00e1pido y usa\nmenos tinta, pero es posible que el texto aparezca agrisado o los colores \np\u00e1lidos. Seleccione Normal o Calidad de impresi\u00f3n \u00d3ptima en el cuadro de\ndi\u00e1logo de configuraci\u00f3n de impresi\u00f3n de HP.\nVea \u201cCambiar la configuraci\u00f3n de impresi\u00f3n\u201d en la pesta\u00f1a \u201cC\u00f3mo puedo\u201d del\nCuadro de herramientas de la impresora HP 2500C Series.\n\u2022\nCompruebe el tipo de papel definido\nCuando se imprimen transparencias u otro tipo especial de sustrato de \nimpresi\u00f3n, seleccione el tipo de sustrato correspondiente en el cuadro de \ndi\u00e1logo de configuraci\u00f3n de impresi\u00f3n de HP. \nVea \u201cImprimir en varios tama\u00f1os y tipos de papel\u201d en la pesta\u00f1a \u201cC\u00f3mo\npuedo\u201d del Cuadro de herramientas de la impresora HP 2500C Series.\n\u2022\nLimpie los cabezales de impresi\u00f3n\nCuando note que la calidad de impresi\u00f3n se deteriora es aconsejable limpiar\nlos cabezales. Vea la secci\u00f3n Limpieza de cabezales en la que encontrar\u00e1 instrucciones.\nHay textos o gr\u00e1ficos cortados\n\u2022\nCompruebe el valor de los m\u00e1rgenes\nSi hay textos o gr\u00e1ficos cortados en los bordes de la p\u00e1gina, aseg\u00farese de que\nlos m\u00e1rgenes definidos para el documento no sobrepasan los l\u00edmites de\nimpresi\u00f3n de su impresora. Para obtener informaci\u00f3n sobre los m\u00e1rgenes de la \nimpresora para cada tipo de papel vea el Ap\u00e9ndice C - M\u00e1rgenes m\u00ednimos de impresi\u00f3n.\n\u2022\nCompruebe la orientaci\u00f3n de la p\u00e1gina\nLa orientaci\u00f3n de la p\u00e1gina que ha seleccionado puede no ser la correcta para\nel documento que est\u00e1 imprimiendo. Compruebe los valores de impresi\u00f3n y\nvuelva a imprimir.\n\u2022\nLa bandeja 3 se extrajo durante la impresi\u00f3n\nSi se extrae la bandeja 3 mientras la impresora est\u00e1 imprimiendo, se cancelar\u00e1\nel trabajo y la p\u00e1gina ser\u00e1 expulsada. Espere que la p\u00e1gina haya sido impresa\ny expulsada de la impresora antes de quitar la bandeja.\n16",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 20,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Se imprimen caracteres extra\u00f1os\n\u2022 \nCompruebe el cable de conexi\u00f3n\nCompruebe que los cables de la impresora y el de la red est\u00e9n firmemente\nconectados a la impresora. Si est\u00e1 usando un cable paralelo, aseg\u00farese de que\nest\u00e1 conectado firmemente al ordenador.\n\u2022 \nCompruebe la configuraci\u00f3n de la impresora\nAseg\u00farese de que su impresora HP 2500C Series est\u00e1 seleccionada como\nimpresora actual o predeterminada. Vea la secci\u00f3n Selecci\u00f3n de su impresora.\n\u2022 \nCompruebe el documento\nEl archivo del documento puede estar da\u00f1ado. Intente imprimir otro archivo\ncon la misma aplicaci\u00f3n.\n\u2022 \nInhabilite la comunicaci\u00f3n bidireccional o deje de compartir el puerto de\nimpresora con otro dispositivo\nUna causa probable de este problema es que haya un conflicto entre la \nimpresora y otro dispositivo que comparta el puerto como unidades zip o\nesc\u00e1neres.\nSi est\u00e1 ejecutando Windows 3.1, no comparta el puerto de impresora con otro\ndispositivo.\nSi est\u00e1 usando Windows 95, 98 o NT 4.0, inhabilite la comunicaci\u00f3n \nbidireccional. \nEliminaci\u00f3n de los atascos de papel\nSi hay papel atascado en la impresora, siga estas instrucciones para eliminar el atasco:\n1. \nQuite todos los sustratos de impresi\u00f3n de las bandejas 1, 2 y 3. Quite el papel\nque claramente impida la carga normal.\n2. Levante la cubierta superior y saque el papel que haya atascado.\n17\n1\n2",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 21,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "3. \nSi no puede liberar el papel atascado, saque el asa de la palanca de selecci\u00f3n\nde papel, tire de la palanca hacia afuera de la impresora y gire para sacar el\npapel.\n4. Si el panel LCD todav\u00eda contin\u00faa informando de un atasco de papel, baje la\npuerta de acceso posterior de la impresora tirando de los dos retenes de la\npuerta posterior.\n5. Quite el panel posterior haciendo presi\u00f3n hacia adentro en las trabas.\n6. Saque el papel atascado en el interior.\n7. \nVuelva a colocar el panel posterior asegur\u00e1ndose de que queda bien fijo.\n8. Cierre la puerta de acceso posterior y encienda la impresora.\nHaga clic para ver una secuencia de v\u00eddeo con el procedimiento descrito arriba.\nSugerencias para evitar atascos de papel\n\u2022 \nAseg\u00farese de que no hay nada que bloquee la ruta del papel.\n\u2022 \nNo sobrecargue las bandejas. La bandeja 1 soporta 10 hojas de papel; \nla bandeja 2 hasta 150 hojas y la bandeja 3 hasta 250 hojas.\n\u2022 \nCargue el papel correctamente.\n\u2022 \nNo utilice papel ondulado ni arrugado.\nDiagn\u00f3sticos de los cabezales de impresi\u00f3n\nCuando el panel LCD muestra el mensaje \u201cDIAG CABEZAL PULSE     \u201d, significa que\nal menos un cabezal est\u00e1 fallando. Necesitar\u00e1 diagnosticar cu\u00e1l es el cabezal que\nfalla y sustituirlo antes de que pueda continuar imprimiendo.\nEste proceso requiere que quite y reinserte los cabezales uno a uno, para que la\nimpresora pueda probar la funcionalidad de cada cabezal. Es necesario que los\ncabezales se inserten seg\u00fan la secuencia negro, cian, magenta y amarillo.\n3\n3\n4\n18",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 22,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Para diagnosticar el cabezal que falla:\n1. \nAbra la cubierta de acceso a los cabezales y abra el ret\u00e9n de los cabezales.\n2. Saque los cabezales cian, magenta y amarillo y cierre la cubierta de acceso a\nlos mismos.\n3. \nEl panel LCD mostrar\u00e1 el mensaje \u201cDETECCI\u00d3N...\u201d mientras comprueba el cabezal.\n4. Si aparece el mensaje \u201cCABEZAL B INCORRECTO, PULSE      \u201d, significa que el\ncabezal negro (Black) est\u00e1 fallando. Si esto sucede, pulse el bot\u00f3n      . Saque\nla cubierta de acceso a los cabezales y coloque un cabezal negro nuevo.\nCierre el ret\u00e9n de los cabezales para verificar que el nuevo cabezal funciona bien.\nSi el mensaje que aparece es \u201cCABEZAL B BIEN PULSE      \u201d, significa que el\ncabezal negro est\u00e1 bien. Pulse el bot\u00f3n      saque la cubierta de acceso a los\ncabezales y reinstale el cabezal cian.\n5. Siga la secuencia del paso 4 y verifique todas las cabezas de impresi\u00f3n.\n6. La secuencia termina cuando haya verificado que todas los cabezales funcio-\nnan correctamente.\n19\nResumen\nPuede realizar la mayor\u00eda de las tareas de impresi\u00f3n rutinarias desde el ordenador\ncon el controlador de impresora. Este es el m\u00e9todo m\u00e1s conveniente para \ncontrolar la impresora. Consulte los archivos de ayuda de los programas de la\nimpresora, o para m\u00e1s informaci\u00f3n, consulte la secci\u00f3n Impresi\u00f3n en Windows.\nTambi\u00e9n puede configurar la impresora cambiando los valores en el panel de \ncontrol de la impresora.\nLa tabla siguiente contiene una lista de los elementos de men\u00fa de la impresora y\nde sus posibles valores de configuraci\u00f3n. En el panel de control de la impresora\npueden aparecer elementos adicionales dependiendo de los m\u00f3dulos de hardware\nactualmente instalados en la impresora.\n2500C\nHP\nAp\u00e9ndice A - Men\u00fas del panel de control",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 23,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Elemento\nValores\nExplicaci\u00f3n\nTIPO BANDEJA 2 =\nCORRIENTE\nConfigure el valor para que corresponda al tipo \nCORRIENTE\nHP INKJET/HEAVY\nde papel cargado actualmente en la bandeja 2.\nHP PHOTO\nTRNSPRNCY/IRON\nCORRIENTE: Papel normal\nRAPID TRNSPRNCY\nHP INKJET/HEAVY: Papel HP Premium Inkjet o\npapel HP Premium Inkjet Heavyweight \nHP PHOTO: Papel HP Premium Photo \nTRNSPRNCY/IRON: Pel\u00edcula transparente HP\nPremium o HP Iron-on T-shirt Transfer\nRAPID TRNSPRNCY: Transparencias de secado\nr\u00e1pido HP Premium Inkjet.\nNota: No es recomendable cargar la siguiente \ncombinaci\u00f3n de tipos de papel en las bandejas 2 y 3 a\nla vez:\n\u2022 Papel HP Premium Inkjet y papel HP Premium Inkjet\nHeavyweight \n\u2022 Pel\u00edcula transparente HP Premium y HP Iron-on \nT-shirt Transfer\nBANDEJA 3 TIPO=\nCORRIENTE\nConfigure el valor para que corresponda al tipo \nCORRIENTE\nHP INKJET/HEAVY\nde papel cargado actualmente en la bandeja 3.\nHP PHOTO\nTRNSPRNCY/IRON\nCORRIENTE: Papel normal\nRAPID TRNSPRNCY\nHP INKJET/HEAVY: Papel HP Premium Inkjet o\npapel HP Premium Inkjet Heavyweight \nHP PHOTO: Papel HP Premium Photo \nTRNSPRNCY/IRON: Pel\u00edcula transparente \nHP Premium o HP Iron-on T-shirt Transfer\nRAPID TRNSPRNCY: Transparencias de secado\nr\u00e1pido HP Premium Inkjet.\nNota: No es recomendable cargar la siguiente combi-\nnaci\u00f3n de tipos de papel en las bandejas 2 y 3 a la vez:\n\u2022 Papel HP Premium Inkjet y papel HP Premium Inkjet\nHeavyweight \n\u2022 Pel\u00edcula transparente HP Premium y HP Iron-on \nT-shirt Transfer\n20\nMEN\u00da DE GESTI\u00d3N DE PAPEL",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 24,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "21\nElemento\nExplicaci\u00f3n\nALINEAR\nEste elemento alinea los cabezales para asegurar que la impresi\u00f3n sea de la \nCABEZALES \nmejor calidad posible. Para m\u00e1s informaci\u00f3n vea la secci\u00f3n Alineaci\u00f3n de los cabezales.\nLIMPIAR CABEZAL:\nEste elemento limpia los cabezales. El nivel 1 es el nivel b\u00e1sico y deber\u00eda ser \nNIVEL 1\nel primero en ser llevado a cabo. Para m\u00e1s informaci\u00f3n, vea la secci\u00f3n Limpieza de\nlos cabezales. \nLIMPIAR CABEZAL:\nEste elemento limpia los cabezales. El nivel 2 es m\u00e1s completo que el nivel 1,\nNIVEL 2\npero s\u00f3lo deber\u00eda utilizarse cuando el nivel 1 no soluciona el problema de la\ncalidad de impresi\u00f3n. Para m\u00e1s informaci\u00f3n, vea la secci\u00f3n Limpieza de los cabezales.\nLIMPIAR CABEZAL:\nEste elemento limpia los cabezales. El nivel 3 es el m\u00e1s completo, pero s\u00f3lo\nNIVEL 3\ndeber\u00eda utilizarse cuando el nivel 2 no soluciona el problema de la calidad \nde impresi\u00f3n, ya que es el que usa m\u00e1s tinta. Para m\u00e1s informaci\u00f3n, vea la \nsecci\u00f3n Limpieza de los cabezales.\nTEST RUTA PAPEL \nEste elemento realiza un test de la ruta del papel de la bandeja 2. Cuando se\nBANDEJA 2 \nselecciona esta opci\u00f3n, la impresora tomar\u00e1 el papel de la bandeja 2 hasta\nque se termine todo el papel.\nTEST RUTA PAPEL\nEste elemento realiza un test de la ruta del papel de la bandeja 3. Cuando se \nBANDEJA 3\nselecciona esta opci\u00f3n, la impresora tomar\u00e1 el papel de la bandeja 3 hasta \nque se termine todo el papel.\nTEST RUTA PAPEL \nEste elemento realiza un test de la ruta del papel de la bandeja 1. Cuando se\nBANDEJA 1 \nselecciona esta opci\u00f3n, la impresora tomar\u00e1 el papel de la bandeja 1 hasta\nque se termine todo el papel.\nMEN\u00da DE DIAGN\u00d3STICOS\nElemento\nExplicaci\u00f3n\nVERIFICAR NIVEL \nEste elemento muestra la cantidad de tinta que queda en cada cartucho.\nDE TINTA\nVER FW BASE \nEste elemento muestra la versi\u00f3n del firmware de la impresora.\nVER FW PS\nEste elemento muestra la versi\u00f3n del firmware PostScript de la impresora.\nVER FW MIO\nEste elemento muestra la versi\u00f3n del firmware del servidor de impresi\u00f3n MIO.\nVERIFICAR \nEste elemento muestra la cantidad total de RAM instalada en la impresora.\nRAM TOTAL \nID DE SERVICIO\nEste elemento muestra el n\u00famero de identificaci\u00f3n de servicio de la impreso-\nra. Este n\u00famero lo necesitar\u00e1 cuando llame al centro de atenci\u00f3n al cliente de\nHP solicitando ayuda.\nMEN\u00da DE INFORMACI\u00d3N",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 25,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "22\nElemento\nValores\nExplicaci\u00f3n\nCALIDAD IMPR.=\nNORMAL\nNORMAL: El modo normal ofrece una salida de\nNORMAL\nECONOFAST\nalta calidad y es la configuraci\u00f3n recomendada\n\u00d3PTIMA\npara obtener una mayor velocidad y una mejor\ncalidad. El modo normal es la configuraci\u00f3n por\nomisi\u00f3n para la mayor\u00eda de tipos de papel.\nECONOFAST: Calidad de impresi\u00f3n de borrador.\nEl modo EconoFast imprime m\u00e1s r\u00e1pido que el\nmodo Normal y ofrece una salida de calidad \ncomparable. EconoFast tambi\u00e9n reduce las veces\nque debe cambiarse el cartucho de tinta porque\nutiliza menos tinta. La impresi\u00f3n EconoFast est\u00e1\ndisponible s\u00f3lo cuando se selecciona papel de\nuso corriente o transparencia como tipo de papel.\n\u00d3PTIMA: Alta calidad de impresi\u00f3n. El modo\n\u00d3ptima proporciona la mejor calidad de \nimpresi\u00f3n para todo tipo de papeles y elimina el\nefecto de bandas que a veces aparece en \u00e1reas\ns\u00f3lidas. No obstante, este modo imprime m\u00e1s\ndespacio que el modo Normal para la mayor\u00eda \nde documentos.\nMEN\u00da DE CALIDAD DE IMPRESI\u00d3N\nElemento\nExplicaci\u00f3n\nIMPRIMIR MAPA \nEl mapa de men\u00fa muestra el esquema de los elementos del men\u00fa del panel\nDE MEN\u00da\nde control.\nIMPRIMIR LISTA \nLa lista de fuentes PS muestra todas las fuentes PS actualmente disponibles \nFUENTES PS\nen la impresora.\nIMPRIMIR P\u00c1G. \nLa p\u00e1gina de diagn\u00f3stico muestra informaci\u00f3n general de impresi\u00f3n y los \nDIAGN\u00d3STICO\npar\u00e1metros de red actuales.\nIMPRIMIR P\u00c1G.\nLa p\u00e1gina de diagn\u00f3stico externo muestra informaci\u00f3n de la impresora que\nDIAG. EXTERNO\nresulta \u00fatil en caso de problemas.\nMEN\u00da VERIF. AUTOM\u00c1TICA",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 26,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Elemento\nValores\nExplicaci\u00f3n\nPAPEL=CARTA\nCARTA\nConfigura el tama\u00f1o del papel \nLEGAL\n13X19\nA4\nA3\n11X17\nJISB4\nORIENTACI\u00d3N=\nVERTICAL\nDetermina la orientaci\u00f3n de impresi\u00f3n por \nVERTICAL\nAPAISADO\nomisi\u00f3n de la p\u00e1gina.\nNota: Lo mejor es configurar la orientaci\u00f3n de la p\u00e1gina\ndesde el controlador de impresora o desde el programa.\nANEXAR RC A AL= \nNO\nSeleccione S\u00cd para a\u00f1adir un retorno del carro a \nNO\nS\u00cd\ncada salto de l\u00ednea que se encuentra en tareas\ncompatibles con PCL (texto puro, sin control de\ntrabajo). Algunos entornos indican una nueva\nl\u00ednea utilizando s\u00f3lo el c\u00f3digo de control de\nsalto de l\u00ednea. Esta opci\u00f3n permite al usuario\na\u00f1adir el retorno del carro necesario en cada\nsalto de l\u00ednea.\nMEN\u00da DE IMPRESI\u00d3N\n23",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 27,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "24\nElemento\nValores\nExplicaci\u00f3n\nESPERA ENTRADA=\nDe 5 a 300\nSeleccione el tiempo (en segundos) que la\n15\nimpresora esperar\u00e1 durante un trabajo de \nimpresi\u00f3n antes de terminarlo. Cuando los datos\nde un trabajo de impresi\u00f3n no se manden \ncompletos a la impresora, \u00e9sta esperar\u00e1 la \ncantidad de segundos especificados. Despu\u00e9s,\ndetendr\u00e1 el trabajo e imprimir\u00e1 el siguiente trabajo.\nPulse [Valor] una vez para cambiar el valor en\nincrementos de 1 o mantenga pulsado [Valor]\npara avanzar r\u00e1pidamente por los diferentes valores.\nESPERA SALIDA=\nDe 0 a 300\nSeleccione la cantidad de tiempo (en segundos) \n15\nque la impresora esperar\u00e1 el siguiente trabajo\nantes de cambiar a otro puerto. Esto es \u00fatil \nespecialmente cuando su impresora est\u00e1 \nconectada a 2 puertos diferentes, por ejemplo \nel puerto paralelo y puerto de red.\nPulse [Valor] una vez para cambiar el valor en\nincrementos de 1 o mantenga pulsado [Valor]\npara avanzar r\u00e1pidamente por los diferentes valores.\nESPERA CANAL \n0 a 300\nSeleccione la cantidad de tiempo (en segundos)\nE/S=120\ndurante el cual la impresora recibir\u00e1 datos de \nun puerto antes de cambiar al siguiente puerto.\nCuando la impresora est\u00e1 conectada a \ndiferentes puertos y le est\u00e1n enviando datos\nsimult\u00e1neamente desde ellos, la impresora \npodr\u00e1 conmutar entre los puertos de manera \nque los trabajos enviados a trav\u00e9s de todos los\ndiferentes puertos tengan prioridad similar.\nPulse [Valor] una vez para cambiar el valor en\nincrementos de 1 o mantenga pulsado [Valor]\npara avanzar r\u00e1pidamente por los diferentes valores.\nMEN\u00da DE ENTRADA/SALIDA\nElemento \nExplicaci\u00f3n\nRESTABLECER\nEste elemento realiza un restablecimiento simple y restaura la mayor\u00eda de \nCONFIG. F\u00c1BRICA\nvalores de f\u00e1brica (por omisi\u00f3n). Tambi\u00e9n limpia el buffer de entrada para el\npuerto de E/S activo.\nREST. CANAL\nEste elemento realiza un restablecimiento simple y limpia los buffer de\nENTR/SAL ACTIVO\nentrada y salida (s\u00f3lo para el puerto de E/S activo).\nREST. CANALES\nEste elemento realiza un restablecimiento simple y limpia los buffer de \nENTRADA/SALIDA\nentrada y salida para todos los elementos de E/S.\nREST. MIO A\nEste elemento realiza restablece el servidor de impresi\u00f3n MIO y restaura \nCONFIG. F\u00c1BRICA\nla mayor\u00eda de valores de f\u00e1brica (por omisi\u00f3n).\nMEN\u00da DE RECUPERACI\u00d3N",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 28,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "25\nMEN\u00da MIO \nEl servidor de impresi\u00f3n MIO que est\u00e9 instalado controla este men\u00fa y el men\u00fa var\u00eda en consecuencia. Para\nobtener m\u00e1s informaci\u00f3n, consulte la documentaci\u00f3n que viene con el servidor de la impresora.\nElemento\nValores\nExplicaci\u00f3n\nPERSONALIDAD=\nAUTOM\u00c1TICA\nSeleccione el lenguaje por omisi\u00f3n de la \nAUTOM\u00c1TICA\nPCL\nimpresora (personalidad). \nPS\nLos valores posibles est\u00e1n determinados por \nlos lenguajes v\u00e1lidos instalados en la impresora.\nPor ejemplo, si usted tiene el m\u00f3dulo PS \ninstalado, podr\u00e1 seleccionar AUTOM\u00c1TICA, \nPCL o PS.\nEn principio no deber\u00eda cambiar el lenguaje de \nla impresora (por omisi\u00f3n es AUTOM\u00c1TICA). \nSi lo cambia a un lenguaje  espec\u00edfico, \nla impresora no cambiar\u00e1 de uno a otro\nautom\u00e1ticamente a no ser que se env\u00eden a la\nimpresora comandos de software espec\u00edficos.\nMEN\u00da DE CONFIGURACI\u00d3N\nElemento \nValores\nExplicaci\u00f3n\nIMP ERRORES PS =\nDESACTIVADO\nSeleccione activado para imprimir la p\u00e1gina de \nDESACTIVADO\nACTIVADO\nerror PS cuando se produzca un error PS.\nDESATASCAR=\nAUTOM\u00c1TICO\nDetermina el comportamiento de la impresora  \nAUTOM\u00c1TICO \nACTIVADO\ncuando se produce un atasco de papel.\nDESACTIVADO\nAUTOM\u00c1TICO: la impresora selecciona \nautom\u00e1ticamente el mejor modo para reaccionar\ntras un atasco del papel (normalmente \nACTIVADO). \u00c9ste es el valor por omisi\u00f3n.\nACTIVADO: La impresora autom\u00e1ticamente \nreimprime las p\u00e1ginas despu\u00e9s de que se haya\neliminado el atasco de papel.\nDESACTIVADO: La impresora no reimprime las\np\u00e1ginas despu\u00e9s de eliminar el atasco de papel.\nEl rendimiento de la impresi\u00f3n puede aumen-\ntarse con este valor.\nCOPIAS=1\nDe 1 a 99\nEstablezca el n\u00famero de copias por omisi\u00f3n\nseleccionando un n\u00famero del 1 al 99. Pulse\n[Valor] una vez para cambiar el valor en \nincrementos de 1 o mantenga pulsado [Valor]\npara avanzar r\u00e1pidamente por los diferentes valores.\nMEN\u00da POSTSCRIPT (s\u00f3lo para HP 2500CM o con kit de actualizaci\u00f3n PostScript)",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 29,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "26\nMENSAJE\nEXPLICACI\u00d3N \nSOLUCI\u00d3N\nSIN CONEXI\u00d3N\nLa impresora est\u00e1 sin  \nPulse\npara ponerla en l\u00ednea.\nconexi\u00f3n (fuera de l\u00ednea).\nCANCELANDO \nLa impresora est\u00e1 cancelando \nTRAB\nel trabajo actual.\nSIN TINTA [COLOR], \nUno de los cartuchos de tinta\nSustituya el cartucho que corresponda.\nCAMBIE CARTUCHO\n(negro, cian, magenta, \no amarillo) est\u00e1 agotado. \nCARTUCHO [COLOR] \nUno de los cartuchos de tinta \nSustituya el cartucho que corresponda.\nDA\u00d1ADO, C\u00c1MBIELO\n(negro, cian, magenta, \no amarillo) est\u00e1 fallando. \nFALTA CARTUCHO \nFalta uno de los cartuchos \nInserte el cartucho que falta.\n[COLOR], INS\u00c9RTELO\nde tinta (negro, cian, magenta, \no amarillo).\nCABEZAL [COLOR] \nUno de los cabezales (negro, \nSustituya el cabezal que corresponda.\nINCORRECTO, \ncian, magenta, o amarillo) \nC\u00c1MBIELO\nest\u00e1 fallando. \nFALTA CABEZAL \nFalta uno de los cabezales \nInserte el cabezal que falta\n[COLOR], INS\u00c9RTELO\n(negro, cian, magenta, \no amarillo).\nCUBIERTA ACCESO \nLa cubierta de acceso a los \nCierre la cubierta para reanudar la impresi\u00f3n.\nCABEZAL ABIERTA\ncabezales est\u00e1 abierta.\nCUBIERTA SUPERIOR \nLa cubierta superior est\u00e1  \nCierre la cubierta y pulse     para reanudar \nABIERTA\nabierta.\nla impresi\u00f3n.\nATASCO PAPEL ABRA \nHay un atasco de papel en \nAbra la cubierta superior para sacar el papel. \nCUBIERT SUP\nla impresora. \nCuando termine cierre la cubierta y pulse      \npara reanudar la impresi\u00f3n.\nCARRO ATASCADO\nEl carro se ha atascado. \nAbra la cubierta superior para eliminar\nABRA CUBIERT SUP\nla obstrucci\u00f3n. Cuando termine cierre \nla cubierta y alinee los cabezales.\nCARRO ATASCADO \nEl carro est\u00e1 atascado.\nAbra la cubierta de acceso a los cabezales \nABRA CUBIERT ACC\npara eliminar la obstrucci\u00f3n. Cuando termine\ncierre la cubierta y pulse     para reanudar la\nimpresi\u00f3n. \n2500C\nHP\nComprensi\u00f3n de los mensajes de la impresora\nMensajes de la impresora m\u00e1s comunes\nNota: Los corchetes\nen la columna MENSAJE indican variables.",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 30,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "27\nPANEL POST IZQ \nEl lado izquierdo del panel \nAbra la cubierta de acceso posterior y \nFUERA\nposterior no est\u00e1 bien \naseg\u00farese de que el lado izquierdo \ninsertado. \ndel panel est\u00e1 bien colocado.\nPANEL POST DCHA \nEl lado derecho del panel \nAbra la cubierta de acceso posterior y\nFUERA\nposterior no est\u00e1 bien \naseg\u00farese de que el lado derecho del \ninsertado.\npanel est\u00e1 bien colocado.\nFALTA GU\u00cdA PAPEL \nFalta una de las gu\u00edas de \nVuelva a colocar la gu\u00eda de papel que\nBANDEJA 2\npapel de la bandeja 2.\nfalta en la bandeja 2.\nBAND 3 ABIERTA/\nLa bandeja 3 est\u00e1 abierta o \nAseg\u00farese de que las dos gu\u00edas de papel\nFALTA GU\u00cdA PAPEL\nfalta una de sus gu\u00edas \nest\u00e1n bien colocadas y que la bandeja 3\nde papel.\nest\u00e1 en la impresora.\nCARGA AL MANUAL\nHa elegido imprimir por la\nCargue el tipo y el tama\u00f1o de papel \n[TIPO] [TAMA\u00d1O]\nbandeja 1.\nindicado en el panel LCD y pulse      para\ncontinuar la impresi\u00f3n.\nBANDEJA [N\u00daMERO] \nLa bandeja especificada \nCargue el tipo y el tama\u00f1o de papel\nVAC\u00cdA, CARGUE, \nest\u00e1 vac\u00eda.\nprevisto para esta bandeja.\nPULSE \nSi quiere cambiar el valor del tama\u00f1o del\npapel de esta bandeja consulte la secci\u00f3n\nCarga de las bandejas. \nPULSE      PARA \nPara continuar con la tarea\nCONTINUAR\nactual, pulse la tecla      .\nPAPEL EN BAND 1, \nEl sustrato de impresi\u00f3n que\nQuite el sustrato de impresi\u00f3n que hay en  \nRET\u00cdRELO\nhay en la bandeja 1 no es del \nla bandeja 1 y pulse el bot\u00f3n      para\ntipo o del tama\u00f1o especificado  \nreanudar la impresi\u00f3n.\nen el trabajo que va a imprimir.\nSi quiere imprimir por la bandeja 1, defina \nel controlador para que imprima por la \nbandeja 1 y env\u00ede el trabajo a imprimir antes\nde colocar el sustrato de impresi\u00f3n en la\nbandeja 1.\nPAPEL ERR\u00d3NEO, \nEl tipo de sustrato de impresi\u00f3n\nPuede cargar el sustrato de impresi\u00f3n \n[ACCI\u00d3N]\ndetectado por la impresora no \ncorrecto o imprimir en el sustrato de \nes el especificado en su \nimpresi\u00f3n existente. Tambi\u00e9n puede \nconfiguraci\u00f3n de impresi\u00f3n.\ncancelar el trabajo de impresi\u00f3n pulsando \nel bot\u00f3n [Cancelar trabajo].\nTAMA\u00d1O PAPEL \nEl tama\u00f1o del papel especificado\nColoque el sustrato correcto en la bandeja  \nINUSUAL\nes diferente del tama\u00f1o de \ny vuelva a imprimir.\npapel que hay en la bandeja\nseleccionada. La impresi\u00f3n se \ntrunc\u00f3 de acuerdo al tama\u00f1o \ndel papel que hay en la bandeja. \nPuede haber perdido datos.",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 31,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "28\nCABEZALES NO  \nLos cabezales no han sido \nAlinee los cabezales.\nALINEADOS\nalineados. Para obtener la \nConsulte Alineaci\u00f3n de los cabezales.\nmejor calidad, alinee los \ncabezales antes del pr\u00f3ximo \ntrabajo.\nSIN CARTUCHO HP\nSe ha detectado un cartucho  \nUse cartuchos de tinta originales de HP.\n[COLOR] \nde color no fabricado por HP. \nHP no garantiza cartuchos \nque no sean HP. El uso de \ncartuchos no compatibles \npuede alterar el complejo \nsistema de impresi\u00f3n, y \npotencialmente puede \nreducir la calidad de \nimpresi\u00f3n e incluso provo\ncar da\u00f1os en la impresora.\nCARTUCHO [COLOR] \nUno de los cartuchos de   \nPrep\u00e1rese para sustituir el cartucho del \nVA A CADUCAR\ntinta (negro, cian, magenta  \ncolor indicado.\no amarillo) est\u00e1 a punto de \ncaducar. Para obtener la \nmejor calidad de impresi\u00f3n, \nes recomendable que no \nutilice cartuchos de tinta \ncaducados. \nPOCA TINTA  \nUno de los cartuchos de  \nPrep\u00e1rese para sustituir el cartucho del \n[COLOR]\ntinta (negro, cian, magenta  \ncolor indicado.\no amarillo) tiene poca tinta. \nPuede continuar imprimiendo\ncon este cartucho hasta  \nque la tinta se agote.",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 32,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "29\nTama\u00f1o del papel\nMargen \nMargen \nMargen \nMargen \nizquierdo\nderecho\nsuperior\ninferior\nCarta (EE.UU.)\n0,25\u201d\n0,25\u201d\n0,117\u201d\n0,5\u201d\n6,35mm\n6,35 mm\n2,97mm\n12,7mm\n11\u201d 17\u201d\n0,26\u201d\n0,26\u201d\n0,117\u201d\n0,5\u201d\n6,6mm\n6,6mm\n2,97mm\n12,7mm\nA4\n0,113\u201d\n0,113\u201d\n0,117\u201d\n0,5\u201d\n2,87mm\n2,87mm\n2,97mm\n12,7mm\nA3\n0,205\u201d\n0,205\u201d\n0,117\u201d\n0,5\u201d\n5,2mm\n5,2mm\n2,97mm\n12,7mm\nB4\n0,205\u201d\n0,205\u201d\n0,117\u201d\n0,5\u201d\n5,2mm\n5,2mm\n2,97mm\n12,7mm\nLegal\n0,25\u201d\n0,25\u201d\n0,117\u201d\n0,5\u201d\n6,25mm\n6,25mm\n2,97mm\n12,7mm\nExecutive\n0,252\u201d\n0,252\u201d\n0,117\u201d\n0,5\u201d\n6,4mm\n6,4mm\n2,97mm\n12,7mm\nA5\n0,127\u201d\n0,127\u201d\n0,117\u201d\n0,5\u201d\n3,2mm\n3,2mm\n2,97mm\n12,7mm\nB5\n0,128\u201d\n0,128\u201d\n0,117\u201d\n0,5\u201d\n3,23mm\n3,23mm\n2,97mm\n12,7mm\nFicha Index 4\u201dx6\u201d \n0,133\u201d\n0,133\u201d\n0,117\u201d\n0,5\u201d\n3,38mm\n3,38mm\n2,97mm\n12,7mm\nFicha Index 5\u201dx8\u201d \n0,127\u201d\n0,127\u201d\n0,117\u201d\n0,5\u201d\n3,2mm\n3,2mm\n2,97mm\n12,7mm\nFicha A6\n0,133\u201d\n0,133\u201d\n0,117\u201d\n0,5\u201d\n3,38mm\n3,38mm\n2,97mm\n12,7mm\n13\u201dx19\u201d\n0,207\u201d\n0,207\u201d\n0,117\u201d\n0,5\u201d\n5,26mm\n5,26mm\n2,97mm\n12,7mm\nFactura\n0,203\u201d\n0,203\u201d\n0,117\u201d\n0,5\u201d\n5,25mm\n5,25mm\n2,97mm\n12,7mm\nPersonalizado\n(4\u201dx5,83\u201d a 13\u201dx19\u201d) o\n(100x148mm a \n0,137\u201d\n0,137\u201d\n0,117\u201d\n0,5\u201d\n330,2x482,6mm)\n3,48mm\n3,48mm\n2,97mm\n12,7mm\nLa siguiente tabla indica los m\u00e1rgenes de impresi\u00f3n m\u00ednimos para los diferentes\ntama\u00f1os de papel soportados. Los m\u00e1rgenes est\u00e1n basados en la orientaci\u00f3n vertical.\n2500C\nHP\nAp\u00e9ndice C - M\u00e1rgenes de impresi\u00f3n m\u00ednimos",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 33,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "La p\u00e1gina de prueba de diagn\u00f3stico, es una herramienta muy valiosa para la resoluci\u00f3n\nde problemas. Le ayudar\u00e1 a verificar si la impresora funciona correctamente. \nPara imprimir una prueba de diagn\u00f3stico:\n1. Pulse [Men\u00fa] hasta que aparezca MEN\u00da VERIF. AUTOM\u00c1TICA\n2. Pulse [Elemento] hasta que aparezca IMPRIMIR P\u00c1G. DIAGN\u00d3STICO.\n3. Pulse [Seleccionar] para imprimir la p\u00e1gina de diagn\u00f3stico.\nLa p\u00e1gina de diagn\u00f3stico se parecer\u00e1 a esta:\n2500C\nHP\nAp\u00e9ndice D - Comprensi\u00f3n de las pruebas de diagn\u00f3stico\n30",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 34,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "2500C\nHP\nAp\u00e9ndice E - Atenci\u00f3n al cliente\nHP FIRST\nHP FIRST es un servicio autom\u00e1tico de fax con informaci\u00f3n t\u00e9cnica gratuita las \n24 horas del d\u00eda. Para utilizar el servicio HP FIRST, puede llamar a los n\u00fameros de\ntel\u00e9fono que se relacionan a continuaci\u00f3n.\nPara EE.UU. y Canad\u00e1\n(800) 333-1917\nPara clientes de Europa:\nReino Unido\n0800 96 02 71\nAtenci\u00f3n en ingl\u00e9s fuera del Reino Unido\n+ 31 20 681 5792\nAlemania\n0130 810061\nAustria\n0600 8128\nB\u00e9lgica (flamenco)\n0800 11906\nB\u00e9lgica (franc\u00e9s)\n0800 17043\nDinamarca\n800 10453\nEspa\u00f1a\n900 993123\nFinlandia\n800 13134\nFrancia\n0800 905900\nItalia\n1678 59020\nNoruega\n800 11 319\nPa\u00edses Bajos\n0800 022 2420\nPortugal\n05 05 31 33 42\nSuecia\n020 795743\nSuiza (alem\u00e1n)\n0800 551 527\nSuiza (franc\u00e9s)\n0800 551 526\n31\nElemento \nDescripci\u00f3n\n1 \nPrinter Information (Informaci\u00f3n de la impresora) muestra \ninformaci\u00f3n general como el n\u00famero de versi\u00f3n del Firmware, \nel modelo y el ID de servicio.\n2 \nBuilt-in Bitmap Fonts (Fuentes bitmap residentes) muestra el tipo\nde fuentes residentes en su impresora. Estos son diferentes de las\nfuentes TrueType que hay instaladas en su ordenador. \n3 \nPrinthead Information (Informaci\u00f3n de cabezales) controla y muestra\nel estado de los cabezales de impresi\u00f3n. Si las barras est\u00e1n impresas\ncorrectamente, indican que los cabezales funcionan bien.\n4 \nInk Cartridge Information (Informaci\u00f3n de cartuchos de tinta)\nmuestra la cantidad de tinta que queda en cada cartucho.\nLa p\u00e1gina de diagn\u00f3sticos est\u00e1 dividida en cuatro secciones:",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 35,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Para clientes de pa\u00edses asi\u00e1ticos y la zona del Pac\u00edfico\nAustralia\n613 9272 2627\nChina\n86 10 6564 5735\nCorea\n822 769 0543\nFilipinas\n(65) 275 7251\nHong Kong\n2506 2422\nIndia\n9111 622 6420\nIndonesia\n21-352 2044\nMalasia\n03 298 2478\nNueva Zelanda\n64 09 356 6642\nSingapur\n275 7251\nTailandia\n662 661 3511\nTaiw\u00e1n\n(02) 719 5589\nLos n\u00fameros de tel\u00e9fono del HP Customer Care Center son los siguientes.\nPara los EE.UU. \n(208) 323-2551\nPara Canad\u00e1\n(905) 206-4663\nPara Am\u00e9rica Latina\nArgentina\n(541) 787 4061/69\nBrasil\n55 11 709 1444\nChile \n562 800 360999\nM\u00e9xico (DF)\n01-800-22147000/1-800-9052900\nM\u00e9xico (Guadalajara)\n(525) 264 2075\nM\u00e9xico (Monterrey)\n91800 22147\nVenezuela\n582 239 5664\nPara Europa\nAfrica/Oriente Medio\n41 22/780 71 11\nAlemania\n180 5258 143\nAustria\n0660 6386\nB\u00e9lgica (flamenco) \n02 6268806\nB\u00e9lgica (franc\u00e9s)\n02 6268807\nDinamarca\n3929 4099\nEspa\u00f1a\n902 321 123\nFinlandia\n203 47288\nFrancia\n01 43 62 34 34\nGrecia\n0168 96 411\nHungr\u00eda\n36 (1) 252 4505\nIrlanda\n01662 5525\nItalia\n02 264 10350\nNoruega\n22 11 6299\nPa\u00edses Bajos\n020 606 8751\nPolonia\n48 22 37 50 65\nPortugal\n01 441 7199\n32",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 36,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "Reino Unido\n0171 512 5202\nRep\u00fablica Checa\n42 (2) 471 7327\nRusia\n7095 923 50 01\nSuecia\n08 619 2170\nSuiza\n0848 80 11 11\nTurqu\u00eda\n90 1 224 59 25\nPara pa\u00edses asi\u00e1ticos y de la zona del Pac\u00edfico\nAustralia\n(61-3) 9272-8000\nChina\n86 10 6564 5959\nCorea\n(82-2) 3270-0700\nFilipinas\n2 867 3551\nHong Kong\n800 96 7729\nIndia\n9111 682 6035\nIndonesia\n21 350 3408\nMalasia\n03 295 2566\nNueva Zelanda\n09 356-6640\nSingapur\n272 5300\nTailandia\n02 661 4011\nTaiw\u00e1n\n866-2-7170055\nVietnam\n8823 4530\n33",
+      "type": "Document"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": [
+      "langchain",
+      "schema",
+      "document",
+      "Document"
+    ],
+    "kwargs": {
+      "metadata": {
+        "source": "C:\\Users\\alain\\OneDrive\\Desktop\\RAG\\data\\raw\\impresora\\HP-2500C-manualusuario.pdf",
+        "title": "",
+        "page": 37,
+        "category": "impresora",
+        "brand": "HP",
+        "model": "2500C"
+      },
+      "page_content": "\u00a9Copyright 1998\nHewlett-Packard Company\n450 Alexandra Road\nSingapore 119960\nSingapore.\nhttp://www.hp.com/go/hp2500",
+      "type": "Document"
+    }
+  }
+]

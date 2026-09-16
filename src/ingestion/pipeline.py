@@ -1,9 +1,16 @@
+import os
 import random
 import time
+
+from anyio import Path
+from langchain_core.load import dumps
+
 
 from src.ingestion.splitters import chunk_splitter
 from src.ingestion.loader import load_documents
 from src.retrieval.vectorstore import get_vectorstore
+
+
 
 
 class IngestionPipeline:
@@ -22,6 +29,13 @@ class IngestionPipeline:
         """
         documents = load_documents(data_source, metadata_dict)
         documents = chunk_splitter(documents)
+
+        save_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", "processed"))
+        json_documents = dumps([d for d in documents], pretty=True)
+        doc_name = f"{os.path.basename(data_source).split('.')[0]}.json"
+        with open(f"{save_path}/{doc_name}", "w", encoding="utf-8") as f:
+            f.write(json_documents)
+        print(f"Documents saved to {save_path}/{doc_name}")
         vectorstore = get_vectorstore()
         for offset in range(0, len(documents), batch_size):
             batch = documents[offset:offset + batch_size]
