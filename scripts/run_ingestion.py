@@ -1,7 +1,6 @@
 import os
 
 from pathlib import Path
-import sys
 from src.ingestion import ingest_data
 
 PDF_PATH = os.path.join(Path(__file__).resolve().parent.parent, "data", "raw")
