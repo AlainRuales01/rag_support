@@ -31,30 +31,30 @@ class IngestionPipeline:
         documents = chunk_splitter(documents)
 
         save_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", "processed"))
-        json_documents = dumps([d for d in documents], pretty=True)
+        json_documents = dumps([d.metadata for d in documents], pretty=True)
         doc_name = f"{os.path.basename(data_source).split('.')[0]}.json"
         with open(f"{save_path}/{doc_name}", "w", encoding="utf-8") as f:
             f.write(json_documents)
         print(f"Documents saved to {save_path}/{doc_name}")
-        vectorstore = get_vectorstore()
-        for offset in range(0, len(documents), batch_size):
-            batch = documents[offset:offset + batch_size]
-            for attempt in range(1, max_retries + 1):
-                try:
-                    print(f'Processing batch {offset // batch_size + 1} of {len(documents) // batch_size + 1}, attempt {attempt} of {max_retries} for batch with offset {offset}')
-                    vectorstore.add_documents(batch)
-                    break
-                except Exception as e:
-                    if "429" in str(e) or "ResourceExhausted" in str(e):
-                        wait = min(120, 30 * 2 ** (attempt - 1)) + random.uniform(0, 5)
-                        print(f"Límite de tasa alcanzado. Esperando {wait}s antes de reintentar...")
-                        time.sleep(wait)
-                    else:
-                        raise e
-            else:
-                raise RuntimeError(f"Fallo definitivo al procesar el lote con offset {offset}")
-            if offset + batch_size < len(documents):
-                time.sleep(wait_time)
+        # vectorstore = get_vectorstore()
+        # for offset in range(0, len(documents), batch_size):
+        #     batch = documents[offset:offset + batch_size]
+        #     for attempt in range(1, max_retries + 1):
+        #         try:
+        #             print(f'Processing batch {offset // batch_size + 1} of {len(documents) // batch_size + 1}, attempt {attempt} of {max_retries} for batch with offset {offset}')
+        #             vectorstore.add_documents(batch)
+        #             break
+        #         except Exception as e:
+        #             if "429" in str(e) or "ResourceExhausted" in str(e):
+        #                 wait = min(120, 30 * 2 ** (attempt - 1)) + random.uniform(0, 5)
+        #                 print(f"Límite de tasa alcanzado. Esperando {wait}s antes de reintentar...")
+        #                 time.sleep(wait)
+        #             else:
+        #                 raise e
+        #     else:
+        #         raise RuntimeError(f"Fallo definitivo al procesar el lote con offset {offset}")
+        #     if offset + batch_size < len(documents):
+        #         time.sleep(wait_time)
         return documents
 
 
