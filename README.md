@@ -146,11 +146,11 @@ python -m pip install -r requirements.txt
 
 ### 2. Environment Variables
 
-Configure your API credentials in a `.env` file or export them:
-
+Configure your API credentials in  using `config.template` file:
+You should copy this file template and rename it to `config.py` in the same directory, then fill in your actual API keys.
 ```ini
-GOOGLE_API_KEY=your_google_gemini_api_key
-PINECONE_API_KEY=your_pinecone_api_key
+GOOGLE_API_KEY="your_google_gemini_api_key"
+PINECONE_API_KEY="your_pinecone_api_key"
 ```
 
 ### 3. Ingestion Pipeline
