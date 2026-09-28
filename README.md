@@ -28,23 +28,17 @@ This project validates four core requirements:
 
 ```mermaid
 flowchart TD
-    subgraph Ingestion Pipeline
-        A["Raw Technical Docs (PDF / JSON / DOCX)"] --> B["PyMuPDF Loader + Metadata Extraction"]
-        B --> C["Recursive Character Splitter<br/>2400 chars / 400 overlap"]
-        C --> D["Gemini Embeddings Generator<br/>768-dim Truncation"]
-        D --> E[("Pinecone Vector Database<br/>Serverless Index")]
+    subgraph Ingestion ["1. Document Ingestion Pipeline"]
+        direction LR
+        Docs["📄 Technical Manuals (PDF)"] --> Split["✂️ Text Splitter (2400 chars)"] --> Embed["🔢 Gemini Embeddings"] --> VectorDB[("🗄️ Pinecone Index")]
     end
 
-    subgraph Query & Generation Pipeline
-        F["Client HTTP Request<br/>GET /query?category=&brand=&model=&question="] --> G["Flask REST API Route"]
-        G --> H["Metadata Filter Builder"]
-        H --> I["Pinecone Vector Store Retriever<br/>Score Threshold: 0.65, k=5"]
-        I --> J["Context Formatter & Document Linker"]
-        J --> K["LangChain LCEL RAG Chain"]
-        K --> L["Strict Anti-Hallucination Prompt Template"]
-        L --> M["Google Gemini 3.5 Flash-Lite LLM<br/>temp=0.1"]
-        M --> N["JSON HTTP Response with Source Citations"]
+    subgraph Inference ["2. Query & Generation Pipeline"]
+        direction LR
+        User["👤 User Query + Filters"] --> API["⚡ Flask API"] --> Search["🔍 Filtered Search (Score ≥ 0.65)"] --> LLM["🤖 Gemini 3.5 Flash-Lite"] --> Out["✅ Answer + Citations"]
     end
+
+    VectorDB -.-> Search
 ```
 
 ---
