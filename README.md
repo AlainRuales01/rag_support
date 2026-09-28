@@ -71,10 +71,10 @@ flowchart TD
 * **Decision:** Configured retrieval with `search_type="similarity_score_threshold"` ($k=5$, threshold $= 0.65$).
 * **Result:** Irrelevant chunks are discarded before reaching the prompt. If no relevant chunks exist, an empty context cleanly triggers the refusal response.
 
-### 3. Chunking Strategy for Procedural Integrity
-* **Context:** Diagnostic workflows and numbered steps span multiple paragraphs. Short chunks ($500$–$800$ characters) split sequential steps.
-* **Decision:** Set `chunk_size = 2400` characters with `chunk_overlap = 400` characters using `RecursiveCharacterTextSplitter`.
-* **Result:** Entire procedures remain cohesive within a single chunk while overlap prevents boundary loss.
+### 3. Balanced Chunking Window (2400 Characters / ~600 Tokens)
+* **Context:** Oversized chunks pack multiple unrelated topics and instructions into a single embedding vector, diluting semantic precision and causing specific ideas to get lost. In other hand, overly aggressive fragmentation fails to capture relevant context.
+* **Decision:** Configured `RecursiveCharacterTextSplitter` with `chunk_size = 2400` characters (~600 tokens) and `chunk_overlap = 400` characters (~100 tokens).
+* **Result:** Strikes an optimal balance that captures comprehensive technical explanations without overflowing into multiple contexts, preserving semantic focus during retrieval.
 
 ### 4. Resilient Ingestion with Exponential Backoff and Jitter
 * **Context:** Batch indexing triggers cloud embedding quota exhaustion (`429 ResourceExhausted`).
