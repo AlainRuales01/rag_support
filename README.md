@@ -16,7 +16,7 @@ This PoC was developed using free-tier resources provided by Google AI Studio. C
 
 ## Problem & Scope
 
-Technical support teams lose significant time searching through multi-brand documentation (e.g., HP, Cisco, Epson, TP-Link). Standard LLM solutions often cross-contaminate procedures between vendors or hallucinate plausibly sounding steps that can damage physical equipment.
+Technical support teams lose significant time searching through multi-brand documentation (e.g., HP, Cisco, Epson, TP-Link). Standard LLM solutions often cross-contaminate procedures between vendors or hallucinate giving mix information or no context data.
 
 This project validates four core requirements:
 - **Domain Isolation:** Restricting search to specific product tags (`category`, `brand`, `model`) to eliminate cross-vendor confusion.
@@ -91,6 +91,11 @@ flowchart TD
 * **Context:** Re-creating embedding and LLM client instances on every HTTP request introduces connection and authentication overhead.
 * **Decision:** Cached client instances using Python's `@lru_cache`.
 * **Result:** Reuses established connection pools and reduces request latency.
+
+### 7. Matryoshka Embedding Truncation (768 Dimensions)
+* **Context:** Full-dimensional vector representations consume significant memory and compute in Pinecone, rapidly exhausting free-tier vector limits.
+* **Decision:** Using Matryoshka Representation Learning (MRL) native to Google Gemini embeddings to truncate output vectors to 768 dimensions (`output_dimensionality=768`).
+* **Result:** Drastically reduces vector database memory waste and retrieval latency while retaining near-full semantic fidelity without losing critical technical information.
 
 ---
 
