@@ -232,11 +232,3 @@ To scale this prototype into a production service:
 2. **Asynchronous Ingestion Queue:** Move ingestion to background workers (Celery / Redis) to support large file uploads without blocking.
 3. **Automated Evaluation:** Integrate evaluation frameworks (e.g., Ragas, TruLens) to systematically track faithfulness, context recall, and hallucination rates over time.
 4. **Containerization & CI/CD:** Package the service with Docker and deploy across managed container runtimes.
-
----
-
-## Resume / CV Bullet Points
-
-> - **Developed an End-to-End RAG Prototype:** Designed a technical support Q&A service using Python 3.11, Flask, LangChain, Pinecone, and Google Gemini to automate documentation lookups across multi-vendor hardware manuals.
-> - **Engineered Anti-Hallucination Guardrails:** Implemented metadata-conditioned vector search and similarity score thresholding ($0.65$), eliminating cross-vendor document bleed and enforcing source citations.
-> - **Optimized Ingestion & Retrieval:** Configured procedural-aware chunking ($2400/400$ chars) to preserve step-by-step troubleshooting workflows and resolved cloud embedding rate limits (`429`) with exponential backoff and jitter.
