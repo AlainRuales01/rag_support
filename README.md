@@ -10,6 +10,8 @@ A **Proof of Concept (PoC)** developed to evaluate the feasibility of a domain-f
 
 The goal of this prototype is to validate whether metadata-conditioned vector search paired with strict prompt guardrails can eliminate hallucinations and provide reliable, step-by-step troubleshooting answers with exact page citations before committing to a full-scale deployment.
 
+This PoC was developed using free-tier resources provided by Google AI Studio. Consequently, key technical decisions—such as batch ingestion sizing, rate-limiting intervals with exponential backoff, embedding dimension truncation, and client instance caching—were specifically engineered to operate reliably without exceeding free quota limits.
+
 ---
 
 ## Problem & Scope
