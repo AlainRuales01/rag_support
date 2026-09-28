@@ -1,10 +1,10 @@
 # Technical Support RAG
 
-[![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/Flask-3.x-black?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
-[![LangChain](https://img.shields.io/badge/LangChain-LCEL-1C3C3C?logo=langchain&logoColor=white)](https://www.langchain.com/)
-[![Pinecone](https://img.shields.io/badge/Pinecone-Vector_DB-000000?logo=pinecone&logoColor=white)](https://www.pinecone.io/)
-[![Google Gemini](https://img.shields.io/badge/Google_Gemini-3.5_Flash_Lite-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
+[![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-3.x-black)](https://flask.palletsprojects.com/)
+[![LangChain](https://img.shields.io/badge/LangChain-LCEL-1C3C3C)](https://www.langchain.com/)
+[![Pinecone](https://img.shields.io/badge/Pinecone-Vector_DB-000000)](https://www.pinecone.io/)
+[![Google Gemini](https://img.shields.io/badge/Google_Gemini-3.5_Flash_Lite-4285F4)](https://ai.google.dev/)
 
 A **Proof of Concept (PoC)** developed to evaluate the feasibility of a domain-filtered **Retrieval-Augmented Generation (RAG)** pipeline for multi-vendor technical support documentation (hardware manuals, network devices, and VPN setups). 
 
@@ -12,7 +12,7 @@ The goal of this prototype is to validate whether metadata-conditioned vector se
 
 ---
 
-## 📌 Problem & Scope
+## Problem & Scope
 
 Technical support teams lose significant time searching through multi-brand documentation (e.g., HP, Cisco, Epson, TP-Link). Standard LLM solutions often cross-contaminate procedures between vendors or hallucinate plausibly sounding steps that can damage physical equipment.
 
@@ -24,7 +24,7 @@ This project validates four core requirements:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart TD
@@ -43,12 +43,12 @@ flowchart TD
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Layer | Technology | Rationale |
 | :--- | :--- | :--- |
 | **Language & Runtime** | Python 3.11 | High performance, native typing, and broad library compatibility. |
-| **API Framework** | Flask | Minimalist REST API. |
+| **API Framework** | Flask | Minimalist REST API using Blueprints for modular route separation. |
 | **RAG Orchestration** | LangChain (LCEL) | Clean, declarative pipeline chaining (`retriever \| prompt \| llm \| parser`). |
 | **Vector Database** | Pinecone | Managed serverless vector index with native metadata filtering. |
 | **Embedding Model** | Google `gemini-embedding-001` | Semantic representations truncated to 768 dimensions for optimal balance of index size and retrieval precision. |
@@ -57,9 +57,9 @@ flowchart TD
 
 ---
 
-## 💡 Key Technical Decisions
+## Key Technical Decisions
 
-### 1. Metadata Pre-filtering over Flat Vector Search
+### 1. Hard Metadata Pre-filtering over Flat Vector Search
 * **Context:** Hardware manuals share identical keywords (*"power indicator"*, *"factory reset"*, *"gateway IP"*).
 * **Decision:** Enforce mandatory metadata filters (`category`, `brand`, `model`) directly in Pinecone's vector search stage.
 * **Result:** Guarantees absolute search isolation within the target equipment without retrieving unrelated vendor guides.
@@ -78,12 +78,12 @@ flowchart TD
 * **Context:** Batch indexing triggers cloud embedding quota exhaustion (`429 ResourceExhausted`).
 * **Decision:** Batched documents into sets of 20 with an exponential backoff formula:
   $$\text{wait} = \min(120, 30 \times 2^{\text{attempt}-1}) + \text{Uniform}(0, 5)$$
-* **Result:** Eliminates failed ingestion runs and prevents to waste limited cloud resources.
+* **Result:** Eliminates failed ingestion runs and prevents wasting cloud quotas.
 
-### 5. Deterministic responses via Strict Prompt Guardrails
-* **Context:** Generic conversational prompts produce unsubstantiated technical advice, adding unnecessary information and hallucinations to the final answer.
+### 5. Deterministic Responses via Strict Prompt Guardrails
+* **Context:** Generic conversational prompts produce unsubstantiated technical advice.
 * **Decision:** System prompt mandates strict adherence to retrieved text, an exact refusal phrase (*"No dispongo de información suficiente..."*), and source attribution (`[Document, Page X]`).
-* **Result:** Output is audit-ready and verifiable against original vendor manuals, giving users confidence in the accuracy of the information.
+* **Result:** Output is audit-ready and verifiable against original vendor manuals.
 
 ### 6. Client Singleton Caching via `@lru_cache`
 * **Context:** Re-creating embedding and LLM client instances on every HTTP request introduces connection and authentication overhead.
@@ -92,7 +92,7 @@ flowchart TD
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── app.py                     # Flask application entry point
@@ -122,7 +122,7 @@ flowchart TD
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Environment Setup
 
@@ -177,7 +177,7 @@ The service runs at `http://127.0.0.1:5000`.
 
 ---
 
-## 📡 API Reference
+## API Reference
 
 ### `GET /query`
 
@@ -224,7 +224,7 @@ GET /query?category=impresora&brand=EPSON&model=L355&question=%C2%BFC%C3%B3mo%20
 
 ---
 
-## 🛣️ Production Roadmap
+## Production Roadmap
 
 To scale this prototype into a production service:
 
@@ -232,3 +232,11 @@ To scale this prototype into a production service:
 2. **Asynchronous Ingestion Queue:** Move ingestion to background workers (Celery / Redis) to support large file uploads without blocking.
 3. **Automated Evaluation:** Integrate evaluation frameworks (e.g., Ragas, TruLens) to systematically track faithfulness, context recall, and hallucination rates over time.
 4. **Containerization & CI/CD:** Package the service with Docker and deploy across managed container runtimes.
+
+---
+
+## Resume / CV Bullet Points
+
+> - **Developed an End-to-End RAG Prototype:** Designed a technical support Q&A service using Python 3.11, Flask, LangChain, Pinecone, and Google Gemini to automate documentation lookups across multi-vendor hardware manuals.
+> - **Engineered Anti-Hallucination Guardrails:** Implemented metadata-conditioned vector search and similarity score thresholding ($0.65$), eliminating cross-vendor document bleed and enforcing source citations.
+> - **Optimized Ingestion & Retrieval:** Configured procedural-aware chunking ($2400/400$ chars) to preserve step-by-step troubleshooting workflows and resolved cloud embedding rate limits (`429`) with exponential backoff and jitter.
